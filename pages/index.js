@@ -5,9 +5,8 @@ import HomeLayout from "@/layouts/homeLayout";
 export default function Home() {
   return (
     <div>
-      <div className=" ">
-        <HomeLayout />
-      </div>
+      <h2>Hello</h2>
     </div>
   );
 }
+Home.Layout = HomeLayout;

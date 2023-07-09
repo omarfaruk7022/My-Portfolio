@@ -4,7 +4,7 @@ import React from 'react'
 export default function projects() {
   return (
     <div>
-        <h2 className='text-green-400 lg:text-red-400'>Hello </h2>
+        <h2 className='ml-28 mt-10'>Projects </h2>
         </div>
   )
 }

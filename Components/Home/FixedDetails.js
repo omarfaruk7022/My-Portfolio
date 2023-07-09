@@ -2,23 +2,122 @@ import Image from "next/image";
 import React from "react";
 import profile from "../../assets/Images/20220930_173528_HDR[1].jpg";
 import HomeLayout from "@/layouts/homeLayout";
+import { GrFacebookOption } from "react-icons/gr";
+import { IoLogoTwitter } from "react-icons/io5";
+import { RxGithubLogo } from "react-icons/rx";
+import { RiLinkedinFill } from "react-icons/ri";
+import { FaMobileAlt } from "react-icons/fa";
+import { BiMailSend } from "react-icons/bi";
+import { IoLocationSharp } from "react-icons/io5";
+import { FaDownload } from "react-icons/fa";
+import { saveAs } from "file-saver";
+import Link from "next/link";
 
 export default function FixedDetails() {
+  const saveFile = () => {
+    saveAs(
+      "https://drive.google.com/uc?export=download&id=1Dcmlg0DWZcgsvy5iTulJCMLWs-G-lveA",
+      "example.pdf"
+    );
+  };
   return (
     <div>
-      <div className="bg-white  dark:bg-[#111111]  rounded-lg p-4">
+      <div className="w-full mb-6 lg:mb-0 mx-auto relative bg-white text-center dark:bg-[#111111] px-6 rounded-[20px] mt-[180px] ">
         <div>
           <Image
-            className="rounded-xl m-auto"
+            // className="rounded-xl absolute top-[-100px] left-1/2 transform -translate-x-1/2  shadow-2xl"
+            class=" absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto rounded-[20px] -mt-[140px]"
             draggable={false}
             src={profile}
             alt="profile"
             width={220}
             height={220}
           ></Image>
-         <div className="">
-            <h2 className="text-sm md:text-xl lg:text-2xl font-bold text-center">Muhammad Omar Faruk</h2>
-         </div>
+          <div className="pt-[100px] pb-8">
+            <div className="pt-5">
+              <h2 className="text-sm md:text-xl lg:text-[24px]  font-bold text-center">
+                Muhammad Omar Faruk
+              </h2>
+              <h4 className="text-center text-[16px] text-[#7B7B7B] pt-4 text-sm">
+                Software Engineer (Reactjs)
+              </h4>
+            </div>
+            <div className="flex gap-4 m-auto justify-center py-6">
+              <Link
+                href={"https://www.facebook.com/omar.faruk.7022"}
+                target="_blank"
+                className="text-xl bg-[#F3F6F6] p-2 rounded-lg text-[#0B86EE] hover:bg-gradient-to-l to-red-400 from-pink-800 hover:text-white "
+              >
+                <GrFacebookOption />
+              </Link>
+              <Link
+                href={"https://twitter.com/Omar_Faruk_7022"}
+                target="_blank"
+                className="text-xl bg-[#F3F6F6] p-2 rounded-lg text-[#1D9BF0] hover:bg-gradient-to-l to-red-400 from-pink-800 hover:text-white "
+              >
+                <IoLogoTwitter />
+              </Link>
+              <Link
+                href={"https://github.com/omarfaruk7022"}
+                target="_blank"
+                className="text-xl bg-[#F3F6F6] p-2 rounded-lg text-[#010409] hover:bg-gradient-to-l to-red-400 from-pink-800 hover:text-white "
+              >
+                <RxGithubLogo />
+              </Link>
+              <Link
+                href={"https://www.linkedin.com/in/md-omar-faruk7022/"}
+                target="_blank"
+                className="text-xl bg-[#F3F6F6] p-2 rounded-lg text-[#1A8CD8] hover:bg-gradient-to-l to-red-400 from-pink-800 hover:text-white "
+              >
+                <RiLinkedinFill />
+              </Link>
+            </div>
+            <div className="bg-[#F3F6F6] rounded-lg p-4">
+              <div className="flex items-center ">
+                <p className="bg-white text-[20px] m-2 p-2  text-center rounded-lg text-[#E4306C] shadow-lg flex justify-center items-center cursor-pointer hover:bg-gradient-to-l to-red-400 from-pink-800 hover:text-white transition-all ">
+                  <FaMobileAlt />
+                </p>
+                <div>
+                  <span className="text-[12px] text-[#44566c]">Phone</span>
+                  <p className="text-[15px] text-black">+8801888-702284</p>
+                </div>
+              </div>
+              <div className="border border-gray-200 my-2 m-2"></div>
+              <div className="flex items-center">
+                <p className="bg-white text-[21px]  m-2 p-2 text-center rounded-lg text-[#8DDACC] shadow-lg flex justify-center items-center cursor-pointer hover:bg-gradient-to-l to-red-400 from-pink-800 hover:text-white transition-all ">
+                  <BiMailSend />
+                </p>
+                <div>
+                  <span className="text-[12px] text-[#44566c] ">Email</span>
+                  <p className="text-[15px] text-black">
+                    omarfaruk7022@gmail.com
+                  </p>
+                </div>
+              </div>
+              <div className="border border-gray-200 my-2 m-2"></div>
+
+              <div className="flex items-center">
+                <p className="bg-white text-[21px]  m-2 p-2 text-center rounded-lg text-[#FFACBA] shadow-lg flex justify-center items-center cursor-pointer hover:bg-gradient-to-l to-red-400 from-pink-800 hover:text-white transition-all ">
+                  <IoLocationSharp />
+                </p>
+                <div>
+                  <span className="text-[12px] text-[#44566c] ">Location</span>
+                  <p className="text-[15px] text-black">Dhaka , Bangladesh</p>
+                </div>
+              </div>
+            </div>
+            <div className="flex justify-center mt-5">
+              <button
+                className="flex gap-2 items-center bg-gradient-to-l to-pink-800 from-red-400 px-7 py-3 rounded-3xl text-white hover:bg-gradient-to-r hover:to-pink-800 hover:from-red-400"
+                onClick={saveFile}
+              >
+                <p>
+                  <FaDownload />
+                </p>
+                <p className="text-[18px]"> Download CV</p>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>

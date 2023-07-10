@@ -21,11 +21,10 @@ export default function FixedDetails() {
   };
   return (
     <div>
-      <div className="w-full mb-6 lg:mb-0 mx-auto relative bg-white dark:bg-[#111111] px-6 rounded-[20px] mt-[180px] ">
+      <div className="w-full  mx-auto relative bg-white dark:bg-[#111111] px-6 rounded-[20px] mt-[180px] ">
         <div>
           <Image
-            // className="rounded-xl absolute top-[-100px] left-1/2 transform -translate-x-1/2  shadow-2xl"
-            class=" absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto  -mt-[140px]"
+            class=" absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto  mt-[-140px]"
             draggable={false}
             src={profile}
             alt="profile"
@@ -34,7 +33,7 @@ export default function FixedDetails() {
           ></Image>
           <div className="pt-[100px] pb-8">
             <div className="pt-5">
-              <h2 className="text-sm md:text-xl lg:text-[24px]  font-bold text-center">
+              <h2 className="text-xl md:text-[18px] lg:text-[24px]  font-bold text-center">
                 Muhammad Omar Faruk
               </h2>
               <h4 className="text-center text-[16px] text-[#7B7B7B] dark:text-[#A6A6A6] pt-4 text-sm">
@@ -80,7 +79,7 @@ export default function FixedDetails() {
                   <span className="text-[12px] text-[#44566c] dark:text-[#A6A6A6] ">
                     Phone
                   </span>
-                  <p className="text-[15px] text-black dark:text-white">
+                  <p className="text-[15px]  text-black dark:text-white">
                     +8801888-702284
                   </p>
                 </div>

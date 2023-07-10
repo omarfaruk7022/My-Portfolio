@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import profile from "../../assets/Images/20220930_173528_HDR[1].jpg";
-import HomeLayout from "@/layouts/homeLayout";
+import profile from "../../assets/Images/cv-bg-none.png";
 import { GrFacebookOption } from "react-icons/gr";
 import { IoLogoTwitter } from "react-icons/io5";
 import { RxGithubLogo } from "react-icons/rx";
@@ -22,11 +21,11 @@ export default function FixedDetails() {
   };
   return (
     <div>
-      <div className="w-full mb-6 lg:mb-0 mx-auto relative bg-white text-center dark:bg-[#111111] px-6 rounded-[20px] mt-[180px] ">
+      <div className="w-full mb-6 lg:mb-0 mx-auto relative bg-white dark:bg-[#111111] px-6 rounded-[20px] mt-[180px] ">
         <div>
           <Image
             // className="rounded-xl absolute top-[-100px] left-1/2 transform -translate-x-1/2  shadow-2xl"
-            class=" absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto rounded-[20px] -mt-[140px]"
+            class=" absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto  -mt-[140px]"
             draggable={false}
             src={profile}
             alt="profile"
@@ -38,7 +37,7 @@ export default function FixedDetails() {
               <h2 className="text-sm md:text-xl lg:text-[24px]  font-bold text-center">
                 Muhammad Omar Faruk
               </h2>
-              <h4 className="text-center text-[16px] text-[#7B7B7B] pt-4 text-sm">
+              <h4 className="text-center text-[16px] text-[#7B7B7B] dark:text-[#A6A6A6] pt-4 text-sm">
                 Software Engineer (Reactjs)
               </h4>
             </div>
@@ -46,63 +45,71 @@ export default function FixedDetails() {
               <Link
                 href={"https://www.facebook.com/omar.faruk.7022"}
                 target="_blank"
-                className="text-xl bg-[#F3F6F6] p-2 rounded-lg text-[#0B86EE] hover:bg-gradient-to-l to-red-400 from-pink-800 hover:text-white "
+                className="text-xl bg-[#F3F6F6] dark:bg-[#1D1D1D] p-2 rounded-lg text-[#0B86EE] hover:bg-gradient-to-l to-red-400 from-pink-800 hover:text-white "
               >
                 <GrFacebookOption />
               </Link>
               <Link
                 href={"https://twitter.com/Omar_Faruk_7022"}
                 target="_blank"
-                className="text-xl bg-[#F3F6F6] p-2 rounded-lg text-[#1D9BF0] hover:bg-gradient-to-l to-red-400 from-pink-800 hover:text-white "
+                className="text-xl bg-[#F3F6F6] dark:bg-[#1D1D1D] p-2 rounded-lg text-[#1D9BF0] hover:bg-gradient-to-l to-red-400 from-pink-800 hover:text-white "
               >
                 <IoLogoTwitter />
               </Link>
               <Link
                 href={"https://github.com/omarfaruk7022"}
                 target="_blank"
-                className="text-xl bg-[#F3F6F6] p-2 rounded-lg text-[#010409] hover:bg-gradient-to-l to-red-400 from-pink-800 hover:text-white "
+                className="text-xl bg-[#F3F6F6] dark:bg-[#1D1D1D] p-2 rounded-lg text-[#010409] hover:bg-gradient-to-l to-red-400 from-pink-800 hover:text-white "
               >
                 <RxGithubLogo />
               </Link>
               <Link
                 href={"https://www.linkedin.com/in/md-omar-faruk7022/"}
                 target="_blank"
-                className="text-xl bg-[#F3F6F6] p-2 rounded-lg text-[#1A8CD8] hover:bg-gradient-to-l to-red-400 from-pink-800 hover:text-white "
+                className="text-xl bg-[#F3F6F6] dark:bg-[#1D1D1D] p-2 rounded-lg text-[#1A8CD8] hover:bg-gradient-to-l to-red-400 from-pink-800 hover:text-white "
               >
                 <RiLinkedinFill />
               </Link>
             </div>
-            <div className="bg-[#F3F6F6] rounded-lg p-4">
-              <div className="flex items-center ">
-                <p className="bg-white text-[20px] m-2 p-2  text-center rounded-lg text-[#E4306C] shadow-lg flex justify-center items-center cursor-pointer hover:bg-gradient-to-l to-red-400 from-pink-800 hover:text-white transition-all ">
+            <div className="bg-[#F3F6F6] dark:bg-[#1D1D1D] rounded-lg p-5 divide-y dark:divide-slate-800">
+              <div className="flex items-center my-2">
+                <p className="bg-white dark:bg-[#000000] text-[20px] m-2 p-2  text-center rounded-lg text-[#E4306C] shadow-lg flex justify-center items-center cursor-pointer hover:bg-gradient-to-l to-red-400 from-pink-800 hover:text-white transition-all ">
                   <FaMobileAlt />
                 </p>
                 <div>
-                  <span className="text-[12px] text-[#44566c]">Phone</span>
-                  <p className="text-[15px] text-black">+8801888-702284</p>
+                  <span className="text-[12px] text-[#44566c] dark:text-[#A6A6A6] ">
+                    Phone
+                  </span>
+                  <p className="text-[15px] text-black dark:text-white">
+                    +8801888-702284
+                  </p>
                 </div>
               </div>
-              <div className="border border-gray-200 my-2 m-2"></div>
-              <div className="flex items-center">
-                <p className="bg-white text-[21px]  m-2 p-2 text-center rounded-lg text-[#8DDACC] shadow-lg flex justify-center items-center cursor-pointer hover:bg-gradient-to-l to-red-400 from-pink-800 hover:text-white transition-all ">
+              <div className="flex items-center my-2">
+                <p className="bg-white dark:bg-[#000000] text-[21px]  m-2 p-2 text-center rounded-lg text-[#8DDACC] shadow-lg flex justify-center items-center cursor-pointer hover:bg-gradient-to-l to-red-400 from-pink-800 hover:text-white transition-all ">
                   <BiMailSend />
                 </p>
                 <div>
-                  <span className="text-[12px] text-[#44566c] ">Email</span>
-                  <p className="text-[15px] text-black">
+                  <span className="text-[12px] text-[#44566c] dark:text-[#A6A6A6] ">
+                    Email
+                  </span>
+                  <p className="text-[15px] text-black dark:text-white">
                     omarfaruk7022@gmail.com
                   </p>
                 </div>
               </div>
-              <div className="border border-gray-200 my-2 m-2"></div>
 
               <div className="flex items-center">
-                <p className="bg-white text-[21px]  m-2 p-2 text-center rounded-lg text-[#FFACBA] shadow-lg flex justify-center items-center cursor-pointer hover:bg-gradient-to-l to-red-400 from-pink-800 hover:text-white transition-all ">
+                <p className="bg-white dark:bg-[#000000] text-[21px]  m-2 p-2 text-center rounded-lg text-[#FFACBA] shadow-lg flex justify-center items-center cursor-pointer hover:bg-gradient-to-l to-red-400 from-pink-800 hover:text-white transition-all ">
                   <IoLocationSharp />
                 </p>
                 <div>
-                  <span className="text-[12px] text-[#44566c] ">Location</span>
-                  <p className="text-[15px] text-black">Dhaka , Bangladesh</p>
+                  <span className="text-[12px] text-[#44566c] dark:text-[#A6A6A6] ">
+                    Location
+                  </span>
+                  <p className="text-[15px] text-black dark:text-white">
+                    Dhaka , Bangladesh
+                  </p>
                 </div>
               </div>
             </div>
@@ -123,5 +130,3 @@ export default function FixedDetails() {
     </div>
   );
 }
-
-FixedDetails.Layout = HomeLayout;

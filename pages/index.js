@@ -1,12 +1,19 @@
 import Navbar from "@/Components/Common/Navbar";
-import ThemeToggler from "@/Components/Common/ThemeToggler";
-import HomeLayout from "@/layouts/homeLayout";
+import FixedDetails from "@/Components/Home/FixedDetails";
+import TabRouting from "@/Components/Home/TabRouting";
 
 export default function Home() {
   return (
-    <div>
-      <h2>Hello</h2>
-    </div>
+    <>
+      <Navbar />
+      <div className="px-0 lg:px-36 grid grid-cols-12 md:gap-10 justify-between lg:mt-[100px]">
+        <div className="col-span-12 lg:col-span-4  lg:block h-screen ">
+          <FixedDetails />
+        </div>
+        <div className="col-span-12 lg:col-span-8">
+          <TabRouting /> 
+        </div>
+      </div>
+    </>
   );
 }
-Home.Layout = HomeLayout;

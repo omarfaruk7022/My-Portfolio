@@ -38,8 +38,8 @@ export default function About() {
                 w={100}
                 src={react}
               ></Image>
-              <div className=" p-2">
-                <h2 className="text-[20px] xl:text-[24px] py-1 text-black font-bold dark:text-white">
+              <div className=" px-1">
+                <h2 className="text-[20px] py-1 text-black  dark:text-white">
                   Front-end Development
                 </h2>
                 <p className="text-[12px] xl:text-[14px] ">
@@ -49,16 +49,16 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className="border-0 bg-[#FEFAF0] dark:bg-transparent dark:border-2 dark:border-[#292929] w-full  h-full xl:h-46 rounded-lg">
-            <div className="flex p-2">
+          <div className="border-0 bg-[#FEFAF0] dark:bg-transparent dark:border-2 dark:border-[#292929] w-full  h-full xl:h-46 rounded-lg ">
+            <div className="flex p-3">
               <Image
                 className="w-14 h-14 md:w-16 md:h-16"
                 alt=""
                 w={100}
                 src={react}
               ></Image>
-              <div className=" p-2">
-                <h2 className="text-[20px] xl:text-[24px] py-1 text-black font-bold dark:text-white">
+              <div className=" px-1">
+                <h2 className="text-[20px]  py-1 text-black  dark:text-white">
                   Front-end Development
                 </h2>
                 <p className="text-[12px] xl:text-[14px] ">
@@ -69,15 +69,15 @@ export default function About() {
             </div>
           </div>
           <div className="border-0 bg-[#FFF4F4]  dark:bg-transparent  dark:border-2 dark:border-[#292929] w-full  h-full xl:h-46 rounded-lg">
-            <div className="flex p-2">
+            <div className="flex p-3">
               <Image
                 className="w-14 h-14 md:w-16 md:h-16"
                 alt=""
                 w={100}
                 src={react}
               ></Image>
-              <div className=" p-2">
-                <h2 className="text-[20px] xl:text-[24px] py-1 text-black font-bold dark:text-white">
+              <div className="px-1">
+                <h2 className="text-[20px] py-1 text-black  dark:text-white">
                   Front-end Development
                 </h2>
                 <p className="text-[12px] xl:text-[14px] ">
@@ -88,15 +88,15 @@ export default function About() {
             </div>
           </div>
           <div className="border-0 bg-[#FCF4FF] dark:bg-transparent dark:border dark:border-[#292929] w-full  h-full xl:h-46 rounded-lg">
-            <div className="flex p-2">
+            <div className="flex p-3">
               <Image
                 className="w-14 h-14 md:w-16 md:h-16"
                 alt=""
                 w={100}
                 src={react}
               ></Image>
-              <div className=" p-2">
-                <h2 className="text-[20px] xl:text-[24px] py-1 text-black font-bold dark:text-white">
+              <div className=" px-1">
+                <h2 className="text-[20px] py-1 text-black  dark:text-white">
                   Front-end Development
                 </h2>
                 <p className="text-[12px] xl:text-[14px] ">
@@ -107,15 +107,15 @@ export default function About() {
             </div>
           </div>
           <div className="border-0 bg-[#F0E4ED] dark:bg-transparent dark:border-2 dark:border-[#292929] w-full  h-full xl:h-46 rounded-lg">
-            <div className="flex p-2">
+            <div className="flex p-3">
               <Image
                 className="w-14 h-14 md:w-16 md:h-16"
                 alt=""
                 w={100}
                 src={react}
               ></Image>
-              <div className=" p-2">
-                <h2 className="text-[20px] xl:text-[24px] py-1 text-black font-bold dark:text-white">
+              <div className=" px-1">
+                <h2 className="text-[20px] py-1 text-black dark:text-white">
                   Front-end Development
                 </h2>
                 <p className="text-[12px] xl:text-[14px] ">
@@ -126,15 +126,15 @@ export default function About() {
             </div>
           </div>
           <div className="border-0 bg-[#F3FAFF] dark:bg-[#111111] dark:border-2 dark:border-[#292929] w-full h-full xl:h-46 rounded-lg">
-            <div className="flex p-2">
+            <div className="flex p-3">
               <Image
                 className="w-14 h-14 md:w-16 md:h-16"
                 alt=""
                 w={100}
                 src={react}
               ></Image>
-              <div className=" p-2">
-                <h2 className="text-[20px] xl:text-[24px] py-1 text-black font-bold dark:text-white">
+              <div className=" px-1">
+                <h2 className="text-[20px]  py-1 text-black  dark:text-white">
                   Front-end Development
                 </h2>
                 <p className="text-[12px] xl:text-[14px] ">

@@ -15,7 +15,7 @@ import Link from "next/link";
 export default function FixedDetails() {
   const saveFile = () => {
     saveAs(
-      "https://drive.google.com/uc?export=download&id=1Dcmlg0DWZcgsvy5iTulJCMLWs-G-lveA",
+      "https://drive.google.com/uc?export=download&id=1xchzTYGcldRlhyWkCBvxjJKx5vTUEaRs",
       "example.pdf"
     );
   };

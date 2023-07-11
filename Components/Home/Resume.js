@@ -179,7 +179,7 @@ export default function Resume() {
         </div>
       </div>
       <div>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:gap-16 lg:gap-5 my-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:gap-16 lg:gap-5 my-12">
           <div className="col-span-1">
             <h4 class="text-3xl dark:text-white font-medium mb-6 ">
               Experience
@@ -227,7 +227,7 @@ export default function Resume() {
         </div>
       </div>
       <div className="">
-        <h4 className="text-3xl dark:text-white font-medium my-10 p-2">
+        <h4 className="text-3xl dark:text-white font-medium  p-2">
           Education
         </h4>
         <VerticalTimeline>

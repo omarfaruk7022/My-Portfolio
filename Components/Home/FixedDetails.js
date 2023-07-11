@@ -21,7 +21,7 @@ export default function FixedDetails() {
   };
   return (
     <div>
-      <div className="w-full  mx-auto relative bg-white dark:bg-[#111111] px-6 rounded-[20px] mt-[180px] ">
+      <div className="w-full  mx-auto relative bg-white dark:bg-[#111111] px-6 rounded-[20px] mt-[180px] shadow-xl ">
         <div>
           <Image
             class=" absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto  mt-[-140px]"
@@ -123,6 +123,7 @@ export default function FixedDetails() {
                 <p className="text-[18px]"> Download CV</p>
               </button>
             </div>
+            
           </div>
         </div>
       </div>

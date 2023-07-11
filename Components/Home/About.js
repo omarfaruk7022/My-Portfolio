@@ -5,9 +5,11 @@ import Image from "next/image";
 export default function About() {
   return (
     <div>
-      <div className="bg-white dark:bg-[#111111] w-full rounded-2xl p-8 my-9 shadow-xl">
+      <div className="bg-white dark:bg-[#111111] w-full rounded-2xl p-8 my-9">
         <div className="flex items-center ">
-          <h2 className="text-xl lg:text-4xl  text-black dark:text-white ">About Me</h2>
+          <h2 className="text-xl lg:text-4xl  text-black dark:text-white ">
+            About Me
+          </h2>
           <div className="border border-pink-400 w-28 ml-14 "></div>
         </div>
         <div>
@@ -22,7 +24,9 @@ export default function About() {
           </p>
         </div>
         <div className="flex items-center py-5">
-          <h2 className="text-xl lg:text-4xl text-black dark:text-white ">What I do</h2>
+          <h2 className="text-xl lg:text-4xl text-black dark:text-white ">
+            What I do
+          </h2>
           <div className="border border-pink-400 w-28 ml-14 "></div>
         </div>
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-9 p-0 xl:p-5">

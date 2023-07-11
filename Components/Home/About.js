@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <div>
-      <div className="bg-white dark:bg-[#111111] w-full rounded-2xl p-8 my-9">
+      <div className="bg-white dark:bg-[#111111] w-full rounded-2xl p-8 my-9 py-12  ">
         <div className="flex items-center ">
           <h2 className="text-xl lg:text-4xl  text-black dark:text-white ">
             About Me

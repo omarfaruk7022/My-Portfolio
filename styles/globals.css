@@ -23,6 +23,12 @@ html {
   }
 }
 
+.vertical-timeline-element-content{
+  padding: 0 !important;
+}
+.vertical-timeline--two-columns .vertical-timeline-element-content{
+  padding: 0 !important;
+}
 .p-4 {
   padding: 0;
 }

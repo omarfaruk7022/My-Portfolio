@@ -18,7 +18,7 @@ export default function Resume() {
           </h2>
           <div className="border border-green-400 w-28 ml-14 "></div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 px-3 lg:px-0">
           <div className="col-span-1">
             <div className="mb-5">
               <div className="flex justify-between mb-1">

@@ -17,7 +17,7 @@ export default function TabRouting() {
               data-hs-tab="#tabs-with-underline-1"
               aria-controls="tabs-with-underline-1"
               role="tab"
-              className="cursor-pointer bg-[#F3F6F6] dark:bg-[#1D1D1D] rounded-2xl p-2 text-center w-20 h-20 hover:bg-gradient-to-l to-red-400 from-pink-800 hover:text-white active "
+              className="cursor-pointer bg-[#F3F6F6] dark:bg-[#1D1D1D] rounded-2xl p-2 text-center w-20 h-20 hover:bg-gradient-to-l to-[#23CE6B] from-[#286e45] hover:text-white active "
             >
               <p className="mt-3">
                 <span className=" flex justify-center text-xl">
@@ -31,7 +31,7 @@ export default function TabRouting() {
               data-hs-tab="#tabs-with-underline-2"
               aria-controls="tabs-with-underline-2"
               role="tab"
-              className="cursor-pointer bg-[#F3F6F6] dark:bg-[#1D1D1D] rounded-2xl p-2 text-center w-20 h-20 hover:bg-gradient-to-l to-red-400 from-pink-800 hover:text-white active "
+              className="cursor-pointer bg-[#F3F6F6] dark:bg-[#1D1D1D] rounded-2xl p-2 text-center w-20 h-20 hover:bg-gradient-to-l to-[#23CE6B] from-[#286e45] hover:text-white active "
             >
               <p className="mt-3">
                 <span className=" flex justify-center text-xl">
@@ -45,7 +45,7 @@ export default function TabRouting() {
               data-hs-tab="#tabs-with-underline-3"
               aria-controls="tabs-with-underline-3"
               role="tab"
-              className="cursor-pointer bg-[#F3F6F6] dark:bg-[#1D1D1D] rounded-2xl p-2 text-center w-20 h-20 hover:bg-gradient-to-l to-red-400 from-pink-800 hover:text-white active "
+              className="cursor-pointer bg-[#F3F6F6] dark:bg-[#1D1D1D] rounded-2xl p-2 text-center w-20 h-20 hover:bg-gradient-to-l to-[#23CE6B] from-[#286e45] hover:text-white active "
             >
               <p className="mt-3">
                 <span className=" flex justify-center text-xl">

@@ -10,9 +10,9 @@ export default function Routing() {
       <div className="bg-white dark:bg-[#111111]  rounded-lg flex p-5 gap-1 w-[200px] ml-28 mt-28">
         <Link
           href={"/about"}
-          className={`bg-[#F3F6F6] dark:bg-[#1D1D1D] rounded-lg p-2 w-28 text-center hover:bg-gradient-to-l to-red-400 from-pink-800 hover:text-white ${
+          className={`bg-[#F3F6F6] dark:bg-[#1D1D1D] rounded-lg p-2 w-28 text-center hover:bg-gradient-to-l to-[#23CE6B] from-[#286e45] hover:text-white ${
             router.pathname == "/about"
-              ? "text-white bg-gradient-to-l to-red-400 from-pink-800"
+              ? "text-white bg-gradient-to-l to-[#23CE6B] from-[#286e45]"
               : ""
           } `}
         >
@@ -25,9 +25,9 @@ export default function Routing() {
         </Link>
         <Link
           href={"/projects"}
-          className={`bg-[#F3F6F6] dark:bg-[#1D1D1D] rounded-lg p-2 w-28 text-center hover:bg-gradient-to-l to-red-400 from-pink-800 hover:text-white ${
+          className={`bg-[#F3F6F6] dark:bg-[#1D1D1D] rounded-lg p-2 w-28 text-center hover:bg-gradient-to-l to-[#23CE6B] from-[#286e45] hover:text-white ${
             router.pathname == "/projects"
-              ? "text-white bg-gradient-to-l to-red-400 from-pink-800"
+              ? "text-white bg-gradient-to-l to-[#23CE6B] from-[#286e45]"
               : ""
           } `}
         >

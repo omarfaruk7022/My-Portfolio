@@ -11,7 +11,7 @@ const ThemeToggler = () => {
   return (
     <>
       <span
-        className=" bg-[#4D4D4D] p-3 rounded-full hover:shadow-lg text-lg cursor-pointer text-white hover:bg-[#EF4060]  flex items-center justify-center   transition-all duration-300 focus:outline-none"
+        className=" bg-[#4D4D4D] p-3 rounded-full hover:shadow-lg text-lg cursor-pointer text-white hover:bg-gradient-to-l to-[#23CE6B] from-[#286e45]  flex items-center justify-center   transition-all duration-300 focus:outline-none"
         onClick={() => setTheme(theme === "light" ? "dark" : "light")}
         aria-label="Toggle Dark Mode"
       >

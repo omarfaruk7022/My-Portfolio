@@ -15,7 +15,7 @@ export default function About() {
           <h2 className="text-xl lg:text-4xl  text-black dark:text-white ">
             About Me
           </h2>
-          <div className="border border-pink-400 w-28 ml-14 "></div>
+          <div className="border border-green-400 w-28 ml-14 "></div>
         </div>
         <div>
           <p className="text-[15px] text-[#646464] dark:text-[#A6A6A6] py-5">
@@ -32,7 +32,7 @@ export default function About() {
           <h2 className="text-xl lg:text-4xl text-black dark:text-white ">
             What I do
           </h2>
-          <div className="border border-pink-400 w-28 ml-14 "></div>
+          <div className="border border-green-400 w-28 ml-14 "></div>
         </div>
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-9 p-0 xl:p-5">
           <div className="border-0 bg-[#FCF4FF] dark:bg-[#111111] dark:border-2 w-full  dark:border-[#292929] h-full xl:h-46 rounded-lg">

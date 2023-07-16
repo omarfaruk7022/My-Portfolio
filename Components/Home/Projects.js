@@ -22,7 +22,9 @@ export default function Projects() {
             <Image src={idolgroup} alt=""></Image>
           </div>
           <div className="p-5">
-            <h2 className="text-2xl">Idol Group</h2>
+            <h2 className="text-2xl text-transparent bg-clip-text bg-gradient-to-l to-[#0d9244] from-[#ffffff]">
+              Idol Group
+            </h2>
             <p className="text-xs">
               It is a team project created with Nextjs, React Bootstrap, and Raw
               CSS. SEO Friendly More faster. Group of companys running website.
@@ -45,7 +47,9 @@ export default function Projects() {
             <Image src={sfs} alt=""></Image>
           </div>
           <div className="p-5">
-            <h2 className="text-2xl">Smart Field Service</h2>
+            <h2 className="text-2xl text-transparent bg-clip-text bg-gradient-to-l to-[#0d9244] from-[#57e793]">
+              Smart Field Service
+            </h2>
             <p className="text-xs text-black dark:text-[#d8d8d8]">
               It is a team project created with Nextjs, React Bootstrap, and Raw
               CSS. SEO Friendly More faster. Our concerns running website. And
@@ -68,7 +72,9 @@ export default function Projects() {
             <Image src={bmw} alt=""></Image>
           </div>
           <div className="p-5">
-            <h2 className="text-2xl ">BMW</h2>
+            <h2 className="text-2xl text-transparent bg-clip-text bg-gradient-to-l to-[#0d9244] from-[#ffffff] ">
+              BMW
+            </h2>
             <p className="text-xs text-black dark:text-[#d8d8d8]">
               Front end created with nextjs, next theme, tailwind CSS, and prime
               react. User and admin role availabled.Only admin can change roles
@@ -77,7 +83,7 @@ export default function Projects() {
             </p>
             <div className="flex justify-between items-center pt-4">
               <Link
-                className=" text-green-400 flex items-center text-[10px]  lg:text-sm   hover:text-green-500"
+                className=" text-green-400 flex items-center text-[10px]   lg:text-[12px]    hover:text-green-500"
                 href="https://bmw-theta.vercel.app/"
                 target="_blank"
               >
@@ -85,7 +91,7 @@ export default function Projects() {
                 <LuExternalLink className="inline-block ml-2" />
               </Link>
               <Link
-                className=" text-green-400 flex items-center text-[10px]  lg:text-sm   hover:text-green-500"
+                className=" text-green-400 flex items-center text-[10px]   lg:text-[12px]   hover:text-green-500"
                 href="https://github.com/omarfaruk7022/BMW"
                 target="_blank"
               >
@@ -93,7 +99,7 @@ export default function Projects() {
                 <LuExternalLink className="inline-block ml-2" />
               </Link>
               <Link
-                className=" text-green-400 flex items-center text-[10px]  lg:text-sm   hover:text-green-500"
+                className=" text-green-400 flex items-center text-[10px]   lg:text-[12px]    hover:text-green-500"
                 href="https://github.com/omarfaruk7022/BMW-Server"
                 target="_blank"
               >
@@ -108,7 +114,9 @@ export default function Projects() {
             <Image src={prime} alt=""></Image>
           </div>
           <div className="p-5">
-            <h2 className="text-2xl">Prime Candidates</h2>
+            <h2 className="text-2xl text-transparent bg-clip-text bg-gradient-to-l to-[#0d9244] from-[#57e793]">
+              Prime Candidates
+            </h2>
             <p className="text-xs text-black dark:text-[#d8d8d8]">
               A Hiring agency application, Made with Nextjs, with Responsive and
               exclusive design. Payment implemented with stripe, secured
@@ -117,7 +125,7 @@ export default function Projects() {
             </p>
             <div className="flex justify-between items-center pt-4">
               <Link
-                className=" text-green-400 flex items-center text-[10px]  lg:text-sm  hover:text-green-500"
+                className=" text-green-400 flex items-center text-[10px]  lg:text-[12px]   hover:text-green-500"
                 href="https://prime-candidates-client.vercel.app/"
                 target="_blank"
               >
@@ -125,7 +133,7 @@ export default function Projects() {
                 <LuExternalLink className="inline-block ml-2" />
               </Link>
               <Link
-                className=" text-green-400 flex items-center text-[10px]  lg:text-sm  hover:text-green-500"
+                className=" text-green-400 flex items-center text-[10px]  lg:text-[12px]   hover:text-green-500"
                 href="https://github.com/omarfaruk7022/prime-candidates-client"
                 target="_blank"
               >
@@ -133,7 +141,7 @@ export default function Projects() {
                 <LuExternalLink className="inline-block ml-2" />
               </Link>
               <Link
-                className=" text-green-400 flex items-center text-[10px]  lg:text-sm  hover:text-green-500"
+                className=" text-green-400 flex items-center text-[10px]  lg:text-[12px]   hover:text-green-500"
                 href="https://github.com/dev-weirdo/prime-candidates-backend"
                 target="_blank"
               >

@@ -92,7 +92,7 @@ export default function Resume() {
                 </span>
               </div>
               <div className="w-full bg-[#edf2f2] rounded-full h-1 dark:bg-[#1c1c1c]">
-                <div className="bg-[#1D9BF0]  h-1 rounded-full w-[85%]"></div>
+                <div className="bg-[#23CE6B]  h-1 rounded-full w-[85%]"></div>
               </div>
             </div>
           </div>

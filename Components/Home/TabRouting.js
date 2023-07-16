@@ -9,7 +9,7 @@ import Resume from "./Resume";
 export default function TabRouting() {
   return (
     <div>
-      <div class=" ">
+      <div class="mt-28  lg:mt-0">
         <div className="flex gap-5 bg-white dark:bg-[#111111] p-8 rounded-2xl ">
           <nav class="flex space-x-2" aria-label="Tabs" role="tablist">
             <div

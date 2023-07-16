@@ -79,9 +79,12 @@ export default function FixedDetails() {
                   <span className="text-[12px] text-[#44566c] dark:text-[#A6A6A6] ">
                     Phone
                   </span>
-                  <p className="text-[15px]  text-black dark:text-white">
+                  <Link
+                    href="tel:+8801888702284"
+                    className="text-[15px]  text-black dark:text-white block"
+                  >
                     +8801888-702284
-                  </p>
+                  </Link>
                 </div>
               </div>
               <div className="flex items-center my-2">
@@ -92,9 +95,12 @@ export default function FixedDetails() {
                   <span className="text-[12px] text-[#44566c] dark:text-[#A6A6A6] ">
                     Email
                   </span>
-                  <p className="text-[15px] text-black dark:text-white">
+                  <Link
+                    href="mailto:omarfaruk7022@gmail.com"
+                    className="text-[15px] text-black dark:text-white block"
+                  >
                     omarfaruk7022@gmail.com
-                  </p>
+                  </Link>
                 </div>
               </div>
 
@@ -106,9 +112,13 @@ export default function FixedDetails() {
                   <span className="text-[12px] text-[#44566c] dark:text-[#A6A6A6] ">
                     Location
                   </span>
-                  <p className="text-[15px] text-black dark:text-white">
+                  <Link
+                    href={"https://goo.gl/maps/TVUp3o21Qxo6f1BZ8"}
+                    target="_blank"
+                    className="text-[15px] text-black dark:text-white block"
+                  >
                     Dhaka , Bangladesh
-                  </p>
+                  </Link>
                 </div>
               </div>
             </div>

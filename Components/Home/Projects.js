@@ -25,7 +25,7 @@ export default function Projects() {
             <h2 className="text-2xl text-transparent bg-clip-text bg-gradient-to-l to-[#0d9244] from-[#ffffff]">
               Idol Group
             </h2>
-            <p className="text-xs">
+            <p className="text-xs text-black dark:text-[#d8d8d8]">
               It is a team project created with Nextjs, React Bootstrap, and Raw
               CSS. SEO Friendly More faster. Group of companys running website.
               And this website is on the ranking of Google Search engine

@@ -12,9 +12,12 @@ export default function Resume() {
   return (
     <div class=" bg-[#F8FBFB]  dark:bg-[#0D0D0D] py-12 px-2 sm:px-5 md:px-10  w-full rounded-2xl p-8 my-9">
       <div className="">
-        <h4 class="text-3xl dark:text-white font-medium mb-6 ">
-          Working Skills
-        </h4>
+        <div className="flex items-center pb-8">
+          <h2 className="text-xl lg:text-4xl  text-black dark:text-white ">
+            Working Skills
+          </h2>
+          <div className="border border-green-400 w-28 ml-14 "></div>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 ">
           <div className="col-span-1">
             <div className="mb-5">
@@ -181,16 +184,26 @@ export default function Resume() {
       <div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:gap-16 lg:gap-5 my-12">
           <div className="col-span-1">
-            <h4 class="text-3xl dark:text-white font-medium mb-6 ">
-              Experience
-            </h4>
+            <div className="flex items-center pb-8">
+              <h2 className="text-xl lg:text-4xl  text-black dark:text-white ">
+                Experience
+              </h2>
+              <div className="border border-green-400 w-28 ml-14 "></div>
+            </div>
             <div className="mb-5">
               <div className="w-full h-full dark:border dark:border-[#292929] p-8 bg-[#FCF4FF] rounded-2xl dark:rounded-lg dark:bg-transparent">
                 <p className="text-sm">September 2022 - Present</p>
-                <h2 className=" text-[16px] mt-2">Software Engineer (Reactjs)</h2>
+                <h2 className=" text-[16px] mt-2">
+                  Software Engineer (Reactjs)
+                </h2>
                 <p className="text-[12px] text-red-400 dark:text-[#d8d8d8] ">
-                  <Link href={"http://www.smartfieldservice.com/"} target="_blank">Smart Field Service <br />
-                  Concern of Idol group</Link> 
+                  <Link
+                    href={"http://www.smartfieldservice.com/"}
+                    target="_blank"
+                  >
+                    Smart Field Service <br />
+                    Concern of Idol group
+                  </Link>
                 </p>
                 <p className="text-[10px]  pt-2 text-[#505050] dark:text-[#d8d8d8]">
                   As an IT service provider, you offer technology-related
@@ -200,9 +213,12 @@ export default function Resume() {
             </div>
           </div>
           <div className="col-span-1">
-            <h4 class="text-3xl dark:text-white font-medium mb-6 ">
-              Knowledge
-            </h4>
+            <div className="flex items-center pb-8">
+              <h2 className="text-xl lg:text-4xl  text-black dark:text-white ">
+                Knowledge
+              </h2>
+              <div className="border border-green-400 w-28 ml-14 "></div>
+            </div>
             <div className="mb-5 text-[#505050] dark:text-[#d8d8d8]">
               <h4 className="bg-[#EDF2F2] dark:bg-[#1D1D1D] p-2 inline-block m-1 rounded-sm ">
                 Programming
@@ -227,9 +243,12 @@ export default function Resume() {
         </div>
       </div>
       <div className="">
-        <h4 className="text-3xl dark:text-white font-medium  p-2">
-          Education
-        </h4>
+        <div className="flex items-center pb-8">
+          <h2 className="text-xl lg:text-4xl  text-black dark:text-white ">
+            Education{" "}
+          </h2>
+          <div className="border border-green-400 w-28 ml-14 "></div>
+        </div>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work "

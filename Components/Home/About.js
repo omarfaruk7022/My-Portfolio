@@ -47,7 +47,7 @@ export default function About() {
                 <h2 className="text-[22px] py-1 text-black  dark:text-white">
                   Ui/Ux Design
                 </h2>
-                <p className="text-[12px] xl:text-[16px] ">
+                <p className="text-[12px] xl:text-[16px] text-[#7B7B7B] dark:text-[#A6A6A6] ">
                   Ui/Ux Design is the art of crafting seamless digital
                   experiences that delight users and elevate the functionality,
                   aesthetics.
@@ -67,7 +67,7 @@ export default function About() {
                 <h2 className="text-[22px]  py-1 text-black  dark:text-white">
                   Web Development
                 </h2>
-                <p className="text-[12px] xl:text-[16px] ">
+                <p className="text-[12px] xl:text-[16px] text-[#7B7B7B] dark:text-[#A6A6A6] ">
                   Web development brings digital ideas to life through coding
                   and design.
                 </p>
@@ -86,7 +86,7 @@ export default function About() {
                 <h2 className="text-[22px] py-1 text-black  dark:text-white">
                   Digital Marketing
                 </h2>
-                <p className="text-[12px] xl:text-[16px] ">
+                <p className="text-[12px] xl:text-[16px] text-[#7B7B7B] dark:text-[#A6A6A6]">
                   Digital marketing drives online success through strategic
                   online advertising and promotion.
                 </p>
@@ -105,7 +105,7 @@ export default function About() {
                 <h2 className="text-[22px] py-1 text-black  dark:text-white">
                 Software Management
                 </h2>
-                <p className="text-[12px] xl:text-[16px] ">
+                <p className="text-[12px] xl:text-[16px] text-[#7B7B7B] dark:text-[#A6A6A6]">
                   Management involves coordinating and overseeing activities to
                   achieve organizational goals.
                 </p>

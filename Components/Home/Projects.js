@@ -14,7 +14,7 @@ export default function Projects() {
         <h2 className="text-xl lg:text-4xl  text-black dark:text-white ">
           Projects
         </h2>
-        <div className="border border-pink-400 w-28 ml-14 "></div>
+        <div className="border border-green-400 w-28 ml-14 "></div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2  gap-8">
         <div className="bg-[#F3F6F6] dark:bg-[#1a1a1a] rounded-lg">

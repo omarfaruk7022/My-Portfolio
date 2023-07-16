@@ -5,10 +5,10 @@ export default function Navbar() {
   return (
     <div className="flex justify-between px-0 lg:px-36  py-4">
       <div>
-        <h1 className="text-3xl ">
-          <span className="text-transparent bg-clip-text bg-gradient-to-l to-[#0d9244] from-[#31e77d]">
+        <h1 className="text-xl lg:text-3xl ml-3 lg:ml-0">
+          <span className="text-transparent bg-clip-text bg-gradient-to-l to-[#0d9244] from-[#31e77d] ">
             Muhammad
-          </span>{" "}
+          </span> {" "}
           Omar Faruk
         </h1>
       </div>

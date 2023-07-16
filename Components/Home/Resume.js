@@ -10,7 +10,7 @@ import "react-vertical-timeline-component/style.min.css";
 
 export default function Resume() {
   return (
-    <div class=" bg-[#F8FBFB]  dark:bg-[#0D0D0D] py-12 px-2 sm:px-5 md:px-10 lg:px-20 w-full rounded-2xl p-8 my-9">
+    <div class=" bg-[#F8FBFB]  dark:bg-[#0D0D0D] py-12 px-2 sm:px-5 md:px-10  w-full rounded-2xl p-8 my-9">
       <div className="">
         <h4 class="text-3xl dark:text-white font-medium mb-6 ">
           Working Skills

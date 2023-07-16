@@ -7,7 +7,7 @@ module.exports = {
     "./Components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/**/*.{html,js}",
-    "node_modules/preline/dist/*.js"
+    "node_modules/preline/dist/*.js",
   ],
   theme: {
     extend: {
@@ -17,7 +17,7 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
-    
+  
   },
-  plugins: [require('preline/plugin')],
+  plugins: [require("tailwind-scrollbar-hide")],
 };

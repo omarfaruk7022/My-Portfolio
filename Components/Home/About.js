@@ -1,5 +1,10 @@
 import React from "react";
 import react from "../../assets/Images/react.png";
+import ui from "../../assets/Images/ui.png";
+import web from "../../assets/Images/web.png";
+import marketing from "../../assets/Images/marketing.png";
+import management from "../../assets/Images/management.png";
+
 import Image from "next/image";
 
 export default function About() {
@@ -31,115 +36,78 @@ export default function About() {
         </div>
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-9 p-0 xl:p-5">
           <div className="border-0 bg-[#FCF4FF] dark:bg-[#111111] dark:border-2 w-full  dark:border-[#292929] h-full xl:h-46 rounded-lg">
-            <div className="flex p-2">
+            <div className="flex py-3">
               <Image
                 className="w-14 h-14 md:w-16 md:h-16"
                 alt=""
                 w={100}
-                src={react}
+                src={ui}
               ></Image>
-              <div className=" px-1">
-                <h2 className="text-[20px] py-1 text-black  dark:text-white">
-                  Front-end Development
+              <div className=" p-1">
+                <h2 className="text-[22px] py-1 text-black  dark:text-white">
+                  Ui/Ux Design
                 </h2>
-                <p className="text-[12px] xl:text-[14px] ">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                  diam euismod volutpat
+                <p className="text-[12px] xl:text-[16px] ">
+                  Ui/Ux Design is the art of crafting seamless digital
+                  experiences that delight users and elevate the functionality,
+                  aesthetics.
                 </p>
               </div>
             </div>
           </div>
           <div className="border-0 bg-[#FEFAF0] dark:bg-transparent dark:border-2 dark:border-[#292929] w-full  h-full xl:h-46 rounded-lg ">
-            <div className="flex p-3">
+            <div className="flex py-3">
               <Image
                 className="w-14 h-14 md:w-16 md:h-16"
                 alt=""
                 w={100}
-                src={react}
+                src={web}
               ></Image>
-              <div className=" px-1">
-                <h2 className="text-[20px]  py-1 text-black  dark:text-white">
-                  Front-end Development
+              <div className=" p-1">
+                <h2 className="text-[22px]  py-1 text-black  dark:text-white">
+                  Web Development
                 </h2>
-                <p className="text-[12px] xl:text-[14px] ">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                  diam euismod volutpat
+                <p className="text-[12px] xl:text-[16px] ">
+                  Web development brings digital ideas to life through coding
+                  and design.
                 </p>
               </div>
             </div>
           </div>
           <div className="border-0 bg-[#FFF4F4]  dark:bg-transparent  dark:border-2 dark:border-[#292929] w-full  h-full xl:h-46 rounded-lg">
-            <div className="flex p-3">
+            <div className="flex py-3">
               <Image
                 className="w-14 h-14 md:w-16 md:h-16"
                 alt=""
                 w={100}
-                src={react}
+                src={marketing}
               ></Image>
-              <div className="px-1">
-                <h2 className="text-[20px] py-1 text-black  dark:text-white">
-                  Front-end Development
+              <div className="p-1">
+                <h2 className="text-[22px] py-1 text-black  dark:text-white">
+                  Digital Marketing
                 </h2>
-                <p className="text-[12px] xl:text-[14px] ">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                  diam euismod volutpat
+                <p className="text-[12px] xl:text-[16px] ">
+                  Digital marketing drives online success through strategic
+                  online advertising and promotion.
                 </p>
               </div>
             </div>
           </div>
           <div className="border-0 bg-[#FCF4FF] dark:bg-transparent dark:border dark:border-[#292929] w-full  h-full xl:h-46 rounded-lg">
-            <div className="flex p-3">
+            <div className="flex py-3">
               <Image
                 className="w-14 h-14 md:w-16 md:h-16"
                 alt=""
                 w={100}
-                src={react}
+                src={management}
               ></Image>
-              <div className=" px-1">
-                <h2 className="text-[20px] py-1 text-black  dark:text-white">
-                  Front-end Development
+              <div className=" p-1">
+                <h2 className="text-[22px] py-1 text-black  dark:text-white">
+                Software Management
                 </h2>
-                <p className="text-[12px] xl:text-[14px] ">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                  diam euismod volutpat
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="border-0 bg-[#F0E4ED] dark:bg-transparent dark:border-2 dark:border-[#292929] w-full  h-full xl:h-46 rounded-lg">
-            <div className="flex p-3">
-              <Image
-                className="w-14 h-14 md:w-16 md:h-16"
-                alt=""
-                w={100}
-                src={react}
-              ></Image>
-              <div className=" px-1">
-                <h2 className="text-[20px] py-1 text-black dark:text-white">
-                  Front-end Development
-                </h2>
-                <p className="text-[12px] xl:text-[14px] ">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                  diam euismod volutpat
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="border-0 bg-[#F3FAFF] dark:bg-[#111111] dark:border-2 dark:border-[#292929] w-full h-full xl:h-46 rounded-lg">
-            <div className="flex p-3">
-              <Image
-                className="w-14 h-14 md:w-16 md:h-16"
-                alt=""
-                w={100}
-                src={react}
-              ></Image>
-              <div className=" px-1">
-                <h2 className="text-[20px]  py-1 text-black  dark:text-white">
-                  Front-end Development
-                </h2>
-                <p className="text-[12px] xl:text-[14px] ">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                  diam euismod volutpat
+                <p className="text-[12px] xl:text-[16px] ">
+                  Management involves coordinating and overseeing activities to
+                  achieve organizational goals.
                 </p>
               </div>
             </div>

@@ -8,7 +8,7 @@ import "react-vertical-timeline-component/style.min.css";
 export default function Education() {
   return (
     <div>
-      <div className="">
+      <div className="bg-[#F8FBFB] dark:bg-[#111111]  py-12 px-2 sm:px-5 md:px-10  w-full p-8 mb-5">
         <div className="flex items-center pb-8">
           <h2 className="text-xl lg:text-4xl  text-black dark:text-white ">
             Education{" "}
@@ -84,7 +84,6 @@ export default function Education() {
               <p>Hedayatunnahu to Jalalain jamat in arabic syllabus</p>
             </div>
           </VerticalTimelineElement>
-
 
           <VerticalTimelineElement
             iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}

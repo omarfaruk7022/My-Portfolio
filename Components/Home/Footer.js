@@ -6,7 +6,7 @@ export default function Footer() {
 
   return (
     <div>
-      <div className="bg-[#F3F6F6] dark:bg-[#1D1D1D] h-20 flex justify-center items-center rounded-b-2xl">
+      <div className="bg-[#F8FBFB]  dark:bg-[#1D1D1D] h-20 flex justify-center items-center rounded-b-2xl">
         <h2 className="text-sm">
           © {year} All Rights Reserved By Muhammad Omar Faruk
         </h2>

@@ -42,7 +42,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="bg-[#F8FBFB]  dark:bg-[#0D0D0D] rounded-2xl  my-9">
+    <div className="bg-white dark:bg-[#0D0D0D] rounded-2xl  my-9">
       <div className=" py-12 px-2 sm:px-5 md:px-10  w-full    ">
         <div className="flex items-center pb-8">
           <h2 className="text-xl lg:text-4xl  text-black dark:text-white ">

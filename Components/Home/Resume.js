@@ -186,7 +186,7 @@ export default function Resume() {
                 </h2>
                 <div className="border border-green-400 w-28 ml-14 "></div>
               </div>
-              <div className="mb-5">
+              <div className="mb-5  shadow-lg rounded-lg">
                 <div className="w-full h-full dark:border dark:border-[#292929] p-8 bg-[#FCF4FF] rounded-2xl dark:rounded-lg dark:bg-transparent">
                   <p className="text-sm">September 2022 - Present</p>
                   <h2 className=" text-[16px] mt-2">
@@ -216,7 +216,7 @@ export default function Resume() {
                 <div className="border border-green-400 w-28 ml-14 "></div>
               </div>
               <div className="mb-5 text-[#505050] dark:text-[#d8d8d8]">
-                <h4 className="bg-[#EDF2F2] dark:bg-[#1D1D1D] p-2 inline-block m-1 rounded-sm ">
+                <h4 className="bg-[#EDF2F2] dark:bg-[#1D1D1D] p-2 inline-block m-1 rounded-sm  ">
                   Programming
                 </h4>
                 <h4 className="bg-[#EDF2F2] dark:bg-[#1D1D1D] p-2 inline-block m-1 rounded-sm">

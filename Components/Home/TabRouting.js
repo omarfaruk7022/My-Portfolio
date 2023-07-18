@@ -5,12 +5,13 @@ import { AiOutlineUser } from "react-icons/ai";
 import { HiOutlineDocumentText } from "react-icons/hi";
 import { FaToolbox } from "react-icons/fa";
 import Resume from "./Resume";
+import Contact from "./Contact";
 
 export default function TabRouting() {
   return (
     <div>
       <div class="mt-28  lg:mt-0">
-        <div className="flex gap-5 bg-white dark:bg-[#111111] p-8 rounded-2xl ">
+        <div className="flex justify-center lg:justify-normal gap-5 bg-white dark:bg-[#111111] p-8 rounded-2xl ">
           <nav class="flex space-x-2" aria-label="Tabs" role="tablist">
             <div
               id="tabs-with-underline-item-1"
@@ -54,6 +55,20 @@ export default function TabRouting() {
                 <span className=" flex justify-center">Projects</span>
               </p>
             </div>
+            <div
+              id="tabs-with-underline-item-4"
+              data-hs-tab="#tabs-with-underline-4"
+              aria-controls="tabs-with-underline-4"
+              role="tab"
+              className="cursor-pointer bg-[#F3F6F6] dark:bg-[#1D1D1D] rounded-2xl p-2 text-center w-20 h-20 hover:bg-gradient-to-l to-[#23CE6B] from-[#286e45] hover:text-white active "
+            >
+              <p className="mt-3">
+                <span className=" flex justify-center text-xl">
+                  <FaToolbox />{" "}
+                </span>
+                <span className=" flex justify-center">Contact</span>
+              </p>
+            </div>
           </nav>
         </div>
       </div>
@@ -81,6 +96,14 @@ export default function TabRouting() {
           aria-labelledby="tabs-with-underline-item-3"
         >
           <Projects />
+        </div>
+        <div
+          id="tabs-with-underline-4"
+          class="hidden"
+          role="tabpanel"
+          aria-labelledby="tabs-with-underline-item-4"
+        >
+          <Contact />
         </div>
       </div>
     </div>

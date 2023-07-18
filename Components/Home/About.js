@@ -6,11 +6,12 @@ import marketing from "../../assets/Images/marketing.png";
 import management from "../../assets/Images/management.png";
 
 import Image from "next/image";
+import Footer from "./Footer";
 
 export default function About() {
   return (
-    <div>
-      <div className="bg-white dark:bg-[#111111] w-full rounded-2xl p-8 my-9 py-12  ">
+    <div className="bg-white dark:bg-[#111111] rounded-2xl my-9" >
+      <div className=" w-full  p-8  py-12  ">
         <div className="flex items-center ">
           <h2 className="text-xl lg:text-4xl  text-black dark:text-white ">
             About Me
@@ -24,8 +25,7 @@ export default function About() {
             have a strong ability to communicate and work in a team, I have the
             ability to finish any task with complete perfection before the
             deadline, Looking for the position of Front-end Developer in
-            (Reactjs) in Smart Field Service company to implement my working
-            skills.
+            (Reactjs) in a company to implement my working skills.
           </p>
         </div>
         <div className="flex items-center py-5">
@@ -34,8 +34,8 @@ export default function About() {
           </h2>
           <div className="border border-green-400 w-28 ml-14 "></div>
         </div>
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-9 p-0 xl:p-5">
-          <div className="border-0 bg-[#FCF4FF] dark:bg-[#111111] dark:border-2 w-full  dark:border-[#292929] h-full xl:h-46 rounded-lg">
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-9 p-0 xl:p-3">
+          <div className="border-0 bg-[#FCF4FF] dark:bg-[#111111] dark:border-2 w-full  dark:border-[#292929] h-full xl:h-46 rounded-lg shadow-lg">
             <div className="flex py-3">
               <Image
                 className="w-14 h-14 md:w-16 md:h-16"
@@ -44,18 +44,17 @@ export default function About() {
                 src={ui}
               ></Image>
               <div className=" p-1">
-                <h2 className="text-[22px] py-1 text-black  dark:text-white">
-                  Ui/Ux Design
+                <h2 className="text-[20px] py-1 text-black  dark:text-white">
+                  Front-end Development
                 </h2>
-                <p className="text-[12px] xl:text-[16px] text-[#7B7B7B] dark:text-[#A6A6A6] ">
-                  Ui/Ux Design is the art of crafting seamless digital
-                  experiences that delight users and elevate the functionality,
-                  aesthetics.
+                <p className="text-[12px] xl:text-[14px] text-[#7B7B7B] dark:text-[#A6A6A6] ">
+                  Front-end development focuses on creating user interfaces and
+                  experiences for websites and applications.
                 </p>
               </div>
             </div>
           </div>
-          <div className="border-0 bg-[#FEFAF0] dark:bg-transparent dark:border-2 dark:border-[#292929] w-full  h-full xl:h-46 rounded-lg ">
+          <div className="border-0 bg-[#FEFAF0] dark:bg-transparent dark:border-2 dark:border-[#292929] w-full  h-full xl:h-46 rounded-lg shadow-lg">
             <div className="flex py-3">
               <Image
                 className="w-14 h-14 md:w-16 md:h-16"
@@ -64,17 +63,17 @@ export default function About() {
                 src={web}
               ></Image>
               <div className=" p-1">
-                <h2 className="text-[22px]  py-1 text-black  dark:text-white">
-                  Web Development
+                <h2 className="text-[20px]   py-1 text-black  dark:text-white">
+                  MERN Stack Development
                 </h2>
-                <p className="text-[12px] xl:text-[16px] text-[#7B7B7B] dark:text-[#A6A6A6] ">
-                  Web development brings digital ideas to life through coding
-                  and design.
+                <p className="text-[12px] xl:text-[14px] text-[#7B7B7B] dark:text-[#A6A6A6] ">
+                  MERN Stack Development combines MongoDB, Express.js, React,
+                  and Node.js to build powerful and scalable web applications.
                 </p>
               </div>
             </div>
           </div>
-          <div className="border-0 bg-[#FFF4F4]  dark:bg-transparent  dark:border-2 dark:border-[#292929] w-full  h-full xl:h-46 rounded-lg">
+          <div className="border-0 bg-[#FFF4F4]  dark:bg-transparent  dark:border-2 dark:border-[#292929] w-full  h-full xl:h-46 rounded-lg shadow-lg">
             <div className="flex py-3">
               <Image
                 className="w-14 h-14 md:w-16 md:h-16"
@@ -83,17 +82,17 @@ export default function About() {
                 src={marketing}
               ></Image>
               <div className="p-1">
-                <h2 className="text-[22px] py-1 text-black  dark:text-white">
+                <h2 className="text-[20px] py-1 text-black  dark:text-white">
                   Digital Marketing
                 </h2>
-                <p className="text-[12px] xl:text-[16px] text-[#7B7B7B] dark:text-[#A6A6A6]">
+                <p className="text-[12px] xl:text-[14px] text-[#7B7B7B] dark:text-[#A6A6A6]">
                   Digital marketing drives online success through strategic
                   online advertising and promotion.
                 </p>
               </div>
             </div>
           </div>
-          <div className="border-0 bg-[#FCF4FF] dark:bg-transparent dark:border dark:border-[#292929] w-full  h-full xl:h-46 rounded-lg">
+          <div className="border-0 bg-[#FCF4FF] dark:bg-transparent dark:border dark:border-[#292929] w-full  h-full xl:h-46 rounded-lg shadow-lg">
             <div className="flex py-3">
               <Image
                 className="w-14 h-14 md:w-16 md:h-16"
@@ -102,10 +101,10 @@ export default function About() {
                 src={management}
               ></Image>
               <div className=" p-1">
-                <h2 className="text-[22px] py-1 text-black  dark:text-white">
-                Software Management
+                <h2 className="text-[20px] py-1 text-black  dark:text-white">
+                  Software Management
                 </h2>
-                <p className="text-[12px] xl:text-[16px] text-[#7B7B7B] dark:text-[#A6A6A6]">
+                <p className="text-[12px] xl:text-[14px] text-[#7B7B7B] dark:text-[#A6A6A6]">
                   Management involves coordinating and overseeing activities to
                   achieve organizational goals.
                 </p>
@@ -114,6 +113,7 @@ export default function About() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

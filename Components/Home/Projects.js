@@ -19,7 +19,7 @@ export default function Projects() {
           <div className="border border-green-400 w-28 ml-14 "></div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2  gap-8">
-          <div className="bg-[#F3F6F6] dark:bg-[#1a1a1a] rounded-lg shadow-md">
+          <div className="bg-[#F8FBFB] dark:bg-[#1a1a1a] rounded-lg shadow-md">
             <div className="overflow-scroll h-96 w-full scrollbar-hide cursor-pointer">
               <Image src={idolgroup} alt=""></Image>
             </div>
@@ -45,7 +45,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="bg-[#F3F6F6] dark:bg-[#1a1a1a] rounded-lg shadow-md">
+          <div className="bg-[#F8FBFB] dark:bg-[#1a1a1a] rounded-lg shadow-md">
             <div className="overflow-scroll h-96 w-full scrollbar-hide cursor-pointer">
               <Image src={sfs} alt=""></Image>
             </div>
@@ -70,7 +70,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="bg-[#F3F6F6] dark:bg-[#1a1a1a] rounded-lg shadow-md">
+          <div className="bg-[#F8FBFB] dark:bg-[#1a1a1a] rounded-lg shadow-md">
             <div className="overflow-scroll h-96 w-full scrollbar-hide cursor-pointer">
               <Image src={bmw} alt=""></Image>
             </div>
@@ -112,7 +112,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="bg-[#F3F6F6] dark:bg-[#1a1a1a] rounded-lg shadow-md">
+          <div className="bg-[#F8FBFB] dark:bg-[#1a1a1a] rounded-lg shadow-md">
             <div className="overflow-scroll h-96 w-full scrollbar-hide cursor-pointer">
               <Image src={prime} alt=""></Image>
             </div>

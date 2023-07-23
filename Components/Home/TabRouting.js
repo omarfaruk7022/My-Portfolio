@@ -10,7 +10,7 @@ import Contact from "./Contact";
 export default function TabRouting() {
   return (
     <div>
-      <div class="mt-28  lg:mt-0">
+      <div class="  lg:mt-0">
         <div className="flex justify-center lg:justify-normal gap-5 bg-white dark:bg-[#111111] p-8 rounded-2xl ">
           <nav class="flex space-x-2" aria-label="Tabs" role="tablist">
             <div

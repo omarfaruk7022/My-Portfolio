@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import idolgroup from "../../assets/Images/idolgroup.png";
 import sfs from "../../assets/Images/sfs.png";
-import bmw from "../../assets/Images/bmw.png";
+import regularShop from "../../assets/Images/regularshop.png";
 import prime from "../../assets/Images/prime.png";
 import { LuExternalLink } from "react-icons/lu";
 import Link from "next/link";
@@ -72,22 +72,22 @@ export default function Projects() {
           </div>
           <div className="bg-[#F8FBFB] dark:bg-[#1a1a1a] rounded-lg shadow-md">
             <div className="overflow-scroll h-96 w-full scrollbar-hide cursor-pointer">
-              <Image src={bmw} alt=""></Image>
+              <Image src={regularShop} alt=""></Image>
             </div>
             <div className="p-5">
               <h2 className="text-2xl text-transparent bg-clip-text bg-gradient-to-l to-[#0d9244] from-[#ffffff] ">
-                BMW
+                Regular Shop
               </h2>
               <p className="text-xs text-black dark:text-[#d8d8d8]">
-                Front end created with nextjs, next theme, tailwind CSS, and
-                prime react. User and admin role availabled.Only admin can
-                change roles of users Authectication with firebase, and database
-                with mongoDB mongoose.
+                A Online market and it is a Personal project, Front end created with nextjs, tailwind CSS,
+                 User and admin role available.Only admin can
+                change roles of users Authentication with firebase, and database
+                with mongoDB using mongoose.
               </p>
               <div className="flex justify-between items-center pt-4">
                 <Link
                   className=" text-green-400 flex items-center text-[10px]   lg:text-[12px]    hover:text-green-500"
-                  href="https://bmw-theta.vercel.app/"
+                  href="https://regular-shop-bd.vercel.app/"
                   target="_blank"
                 >
                   Preview

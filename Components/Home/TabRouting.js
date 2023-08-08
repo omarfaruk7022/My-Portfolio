@@ -6,6 +6,7 @@ import { HiOutlineDocumentText } from "react-icons/hi";
 import { FaToolbox } from "react-icons/fa";
 import Resume from "./Resume";
 import Contact from "./Contact";
+import { MdContactMail } from "react-icons/md";
 
 export default function TabRouting() {
   return (
@@ -46,7 +47,7 @@ export default function TabRouting() {
               data-hs-tab="#tabs-with-underline-3"
               aria-controls="tabs-with-underline-3"
               role="tab"
-              className="cursor-pointer bg-[#F3F6F6] dark:bg-[#1D1D1D] rounded-2xl p-2 text-center w-20 h-20 hover:bg-gradient-to-l to-[#23CE6B] from-[#286e45] hover:text-white active "
+              className=" cursor-pointer bg-[#F3F6F6] dark:bg-[#1D1D1D] rounded-2xl p-2 text-center w-20 h-20 hover:bg-gradient-to-l to-[#23CE6B] from-[#286e45] hover:text-white active "
             >
               <p className="mt-3">
                 <span className=" flex justify-center text-xl">
@@ -64,7 +65,7 @@ export default function TabRouting() {
             >
               <p className="mt-3">
                 <span className=" flex justify-center text-xl">
-                  <FaToolbox />{" "}
+                  <MdContactMail />{" "}
                 </span>
                 <span className=" flex justify-center">Contact</span>
               </p>

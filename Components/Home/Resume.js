@@ -4,7 +4,7 @@ import Education from "./Education";
 import Footer from "./Footer";
 
 export default function Resume() {
-  return ( 
+  return (
     <div className="bg-white dark:bg-[#0D0D0D] rounded-2xl my-9">
       <div class=" py-12 px-2 sm:px-5 md:px-10  w-full p-8 ">
         <div className="">
@@ -26,7 +26,7 @@ export default function Resume() {
                   </span>
                 </div>
                 <div className="w-full bg-[#edf2f2] rounded-full h-1 dark:bg-[#1c1c1c]">
-                  <div className="bg-[#ca56f2]  h-1 rounded-full w-95%]"></div>
+                  <div className="bg-[#ca56f2]  h-1 rounded-full w-90%]"></div>
                 </div>
               </div>
               <div className="mb-5">
@@ -188,11 +188,12 @@ export default function Resume() {
               </div>
               <div className="mb-5  shadow-lg rounded-lg">
                 <div className="w-full h-full dark:border dark:border-[#292929] p-8 bg-[#FCF4FF] rounded-2xl dark:rounded-lg dark:bg-transparent">
-                  <p className="text-sm">September 2022 - Present</p>
+                  <p className="text-sm">September 2022 - September 2023 (1 year)</p>
+                  
                   <h2 className=" text-[16px] mt-2">
                     Software Engineer (Reactjs)
                   </h2>
-                  <p className="text-[12px] text-red-400 dark:text-[#d8d8d8] ">
+                  <p className="text-[12px] text-red-400  ">
                     <Link
                       href={"http://www.smartfieldservice.com/"}
                       target="_blank"
@@ -204,6 +205,27 @@ export default function Resume() {
                   <p className="text-[10px]  pt-2 text-[#505050] dark:text-[#d8d8d8]">
                     As an IT service provider, you offer technology-related
                     services and support to your clients.
+                  </p>
+                </div>
+              </div>
+              <div className="mb-5  shadow-lg rounded-lg">
+                <div className="w-full h-full dark:border dark:border-[#292929] p-8 bg-[#FCF4FF] rounded-2xl dark:rounded-lg dark:bg-transparent">
+                  <p className="text-sm">September 2023 - Present</p>
+                  <h2 className=" text-[16px] mt-2">
+                    Software Engineer (Reactjs)
+                  </h2>
+                  <p className="text-[12px] text-[#23CE6B] ">
+                    <Link
+                      href={"http://www.smartfieldservice.com/"}
+                      target="_blank"
+                    >
+                      Bdtask Limited 
+                    </Link>
+                  </p>
+                  <p className="text-[10px]  pt-2 text-[#505050] dark:text-[#d8d8d8]">
+                    Bdtask, Inc. has a global reputation for up to scratch
+                    customer experience which marks us as one of the best
+                    software development companies in the world.
                   </p>
                 </div>
               </div>
@@ -239,7 +261,7 @@ export default function Resume() {
           </div>
         </div>
       </div>
-        <Education />
+      <Education />
       <Footer />
     </div>
   );

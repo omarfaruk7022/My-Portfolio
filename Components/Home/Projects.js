@@ -4,6 +4,7 @@ import idolgroup from "../../assets/Images/idolgroup.png";
 import sfs from "../../assets/Images/sfs.png";
 import regularShop from "../../assets/Images/regularshop.png";
 import bus from "../../assets/Images/bus365.png";
+import cart24 from "../../assets/Images/cart24.png";
 import { LuExternalLink } from "react-icons/lu";
 import Link from "next/link";
 import Footer from "./Footer";
@@ -20,6 +21,34 @@ export default function Projects() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2  gap-8">
           {" "}
+          <div className="bg-[#F8FBFB] dark:bg-[#1a1a1a] rounded-lg shadow-md">
+            <div className="overflow-scroll h-96 w-full scrollbar-hide cursor-pointer">
+              <Image src={cart24} alt=""></Image>
+            </div>
+            <div className="p-5">
+              <h2 className="text-2xl text-transparent bg-clip-text bg-gradient-to-l to-[#0d9244] from-[#57e793]">
+                Cart24
+              </h2>
+              <p className="text-xs text-black dark:text-[#d8d8d8]">
+                Cart24:is a very wonderful eCommerce System, This eCommerce
+                system is developed by Python and Django & frontend developed
+                with Next js.It is mostly useful for any eCommerce Business and
+                Dropshipping Business. It has a variety of features on eCommerce
+                Management.
+              </p>
+              <div className="flex justify-between items-center pt-4">
+                <Link
+                  className=" text-green-400 flex items-center text-sm   hover:text-green-500"
+                  href="https://cart24.com/"
+                  target="_blank"
+                >
+                  Preview
+                  <LuExternalLink className="inline-block ml-2" />
+                </Link>
+                
+              </div>
+            </div>
+          </div>
           <div className="bg-[#F8FBFB] dark:bg-[#1a1a1a] rounded-lg shadow-md">
             <div className="overflow-scroll h-96 w-full scrollbar-hide cursor-pointer">
               <Image src={bus} alt=""></Image>
@@ -49,7 +78,7 @@ export default function Projects() {
                   href="https://bus365demo.bdtask-demo.com/backend/login"
                   target="_blank"
                 >
-                 Admin panel
+                  Admin panel
                   <LuExternalLink className="inline-block ml-2" />
                 </Link>
               </div>

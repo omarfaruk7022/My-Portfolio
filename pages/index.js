@@ -1,10 +1,13 @@
 import Navbar from "@/Components/Common/Navbar";
 import FixedDetails from "@/Components/Home/FixedDetails";
 import TabRouting from "@/Components/Home/TabRouting";
-
-
+import Head from "next/head";
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    document.title = "Muhammad Omar Faruk";
+  }, []);
   return (
     <>
       <Navbar />
@@ -13,7 +16,7 @@ export default function Home() {
           <FixedDetails />
         </div>
         <div className="col-span-12 lg:col-span-8">
-          <TabRouting /> 
+          <TabRouting />
         </div>
       </div>
     </>

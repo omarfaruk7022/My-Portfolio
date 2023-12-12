@@ -30,7 +30,7 @@ export default function Projects() {
                 Cart24
               </h2>
               <p className="text-xs text-black dark:text-[#d8d8d8]">
-                Cart24:is a very wonderful eCommerce System, This eCommerce
+                A multi vendor dynamic eCommerce System, This eCommerce
                 system is developed by Python and Django & frontend developed
                 with Next js.It is mostly useful for any eCommerce Business and
                 Dropshipping Business. It has a variety of features on eCommerce

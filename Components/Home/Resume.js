@@ -4,6 +4,7 @@ import Education from "./Education";
 import Footer from "./Footer";
 
 export default function Resume() {
+ 
   return (
     <div className="bg-white dark:bg-[#0D0D0D] rounded-2xl my-9">
       <div class=" py-12 px-2 sm:px-5 md:px-10  w-full p-8 ">

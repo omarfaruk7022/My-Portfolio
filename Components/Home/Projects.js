@@ -8,6 +8,7 @@ import cart24 from "../../assets/Images/cart24.png";
 import { LuExternalLink } from "react-icons/lu";
 import Link from "next/link";
 import Footer from "./Footer";
+import Head from "next/head";
 
 export default function Projects() {
   return (
@@ -30,9 +31,9 @@ export default function Projects() {
                 Cart24
               </h2>
               <p className="text-xs text-black dark:text-[#d8d8d8]">
-                A multi vendor dynamic eCommerce System, This eCommerce
-                system is developed by Python and Django & frontend developed
-                with Next js.It is mostly useful for any eCommerce Business and
+                A multi vendor dynamic eCommerce System, This eCommerce system
+                is developed by Python and Django & frontend developed with Next
+                js.It is mostly useful for any eCommerce Business and
                 Dropshipping Business. It has a variety of features on eCommerce
                 Management.
               </p>
@@ -45,7 +46,6 @@ export default function Projects() {
                   Preview
                   <LuExternalLink className="inline-block ml-2" />
                 </Link>
-                
               </div>
             </div>
           </div>

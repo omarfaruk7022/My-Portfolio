@@ -15,10 +15,12 @@ import Link from "next/link";
 export default function FixedDetails() {
   const saveFile = () => {
     saveAs(
-      "https://drive.google.com/uc?export=download&id=1xchzTYGcldRlhyWkCBvxjJKx5vTUEaRs",
+      "https://drive.google.com/uc?export=download&id=1C6ej0sl9pBTXjV3nJWx3c0q-hBcpAP54",
       "example.pdf"
     );
   };
+
+  // https://drive.google.com/file/d/1C6ej0sl9pBTXjV3nJWx3c0q-hBcpAP54/view?usp=sharing
   return (
     <div>
       <div className="w-full mx-auto relative bg-white dark:bg-[#111111] px-6 rounded-[20px]  ">

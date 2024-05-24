@@ -2,13 +2,12 @@ import Image from "next/image";
 import React from "react";
 import idolgroup from "../../assets/Images/idolgroup.png";
 import sfs from "../../assets/Images/sfs.png";
-import regularShop from "../../assets/Images/regularshop.png";
+import islamicPoshak from "../../assets/Images/islamicPoshak.png";
 import bus from "../../assets/Images/bus365.png";
 import cart24 from "../../assets/Images/cart24.png";
 import { LuExternalLink } from "react-icons/lu";
 import Link from "next/link";
 import Footer from "./Footer";
-import Head from "next/head";
 
 export default function Projects() {
   return (
@@ -137,28 +136,28 @@ export default function Projects() {
           </div>
           <div className="bg-[#F8FBFB] dark:bg-[#1a1a1a] rounded-lg shadow-md">
             <div className="overflow-scroll h-96 w-full scrollbar-hide cursor-pointer">
-              <Image src={regularShop} alt=""></Image>
+              <Image src={islamicPoshak} alt=""></Image>
             </div>
             <div className="p-5">
               <h2 className="text-2xl text-transparent bg-clip-text bg-gradient-to-l to-[#0d9244] from-[#ffffff] ">
-                Regular Shop
+                Islamic poshak collection 
               </h2>
               <p className="text-xs text-black dark:text-[#d8d8d8]">
-                A Online market and it is a Personal project, Front end created
-                with nextjs, tailwind CSS, User and admin role available.Only
+                A Online market and it is a client project, Front end created
+                with Reactjs, tailwind CSS, User and admin role available.Only
                 admin can change roles of users Authentication with firebase,
                 and database with mongoDB using mongoose.
               </p>
               <div className="flex justify-between items-center pt-4">
                 <Link
                   className=" text-green-400 flex items-center text-[10px]   lg:text-[12px]    hover:text-green-500"
-                  href="https://regular-shop-bd.vercel.app/"
+                  href="https://islamicposhak.com/"
                   target="_blank"
                 >
                   Preview
                   <LuExternalLink className="inline-block ml-2" />
                 </Link>
-                <Link
+                {/* <Link
                   className=" text-green-400 flex items-center text-[10px]   lg:text-[12px]   hover:text-green-500"
                   href="https://github.com/omarfaruk7022/BMW"
                   target="_blank"
@@ -173,7 +172,7 @@ export default function Projects() {
                 >
                   Github Server
                   <LuExternalLink className="inline-block ml-2" />
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

@@ -39,7 +39,8 @@ export default function FixedDetails() {
                 Muhammad Omar Faruk
               </h2>
               <h4 className="text-center text-[16px] text-[#7B7B7B] dark:text-[#A6A6A6] pt-4 text-sm">
-                Web Developer (Reactjs)
+                Frontend
+                 Developer (Reactjs)
               </h4>
             </div>
             <div className="flex gap-4 m-auto justify-center py-6">
@@ -83,7 +84,7 @@ export default function FixedDetails() {
                   </span>
                   <Link
                     href="tel:+8801888702284"
-                    className="text-[15px]  text-black dark:text-white block"
+                    className="text-[15px] lg:text-[12px]   text-black dark:text-white block"
                   >
                     +8801888-702284
                   </Link>
@@ -99,7 +100,7 @@ export default function FixedDetails() {
                   </span>
                   <Link
                     href="mailto:omarfaruk7022@gmail.com"
-                    className="text-[15px] text-black dark:text-white block"
+                    className="text-[15px] lg:text-[12px] text-black dark:text-white block"
                   >
                     omarfaruk7022@gmail.com
                   </Link>
@@ -117,7 +118,7 @@ export default function FixedDetails() {
                   <Link
                     href={"https://goo.gl/maps/TVUp3o21Qxo6f1BZ8"}
                     target="_blank"
-                    className="text-[15px] text-black dark:text-white block"
+                    className="text-[15px] lg:text-[12px] text-black dark:text-white block"
                   >
                     Dhaka , Bangladesh
                   </Link>

@@ -193,10 +193,7 @@ export default function Resume() {
                     Software Engineer (Reactjs)
                   </h2>
                   <p className="text-[12px] text-[#23CE6B] ">
-                    <Link
-                      href={"http://www.smartfieldservice.com/"}
-                      target="_blank"
-                    >
+                    <Link href={"http://www.bdtask.com/"} target="_blank">
                       Bdtask Limited
                     </Link>
                   </p>

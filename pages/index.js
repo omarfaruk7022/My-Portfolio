@@ -59,6 +59,15 @@ export default function Home() {
             }
           `}
         </script>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-0FME6JJW0J"
+        ></script>
+        <script>
+          window.dataLayer = window.dataLayer || []; function gtag()
+          {dataLayer.push(arguments)}
+          gtag('js', new Date()); gtag('config', 'G-0FME6JJW0J');
+        </script>
       </Head>
       <Navbar />
       <div className="sm:px-0 xl:px-44 grid grid-cols-12 md:gap-10 justify-between lg:mt-[150px] mt-36">

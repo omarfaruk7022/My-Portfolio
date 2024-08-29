@@ -64,9 +64,14 @@ export default function Home() {
           src="https://www.googletagmanager.com/gtag/js?id=G-0FME6JJW0J"
         ></script>
         <script>
-          window.dataLayer = window.dataLayer || []; function gtag()
-          {dataLayer.push(arguments)}
-          gtag('js', new Date()); gtag('config', 'G-0FME6JJW0J');
+          {`
+    window.dataLayer = window.dataLayer || []; 
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date()); 
+    gtag('config', 'G-0FME6JJW0J');
+  `}
         </script>
       </Head>
       <Navbar />

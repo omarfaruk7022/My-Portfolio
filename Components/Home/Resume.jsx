@@ -4,7 +4,6 @@ import Education from "./Education";
 import Footer from "./Footer";
 
 export default function Resume() {
- 
   return (
     <div className="bg-white dark:bg-[#0D0D0D] rounded-2xl my-9">
       <div class=" py-12 px-2 sm:px-5 md:px-10  w-full p-8 ">
@@ -23,11 +22,11 @@ export default function Resume() {
                     HTML5
                   </span>
                   <span className=" font-semibold text-[#526377] dark:text-[#A6A6A6]">
-                    90%
+                    70%
                   </span>
                 </div>
                 <div className="w-full bg-[#edf2f2] rounded-full h-1 dark:bg-[#1c1c1c]">
-                  <div className="bg-[#ca56f2]  h-1 rounded-full w-90%]"></div>
+                  <div className="bg-[#ca56f2]  h-1 rounded-full w-[70%]"></div>
                 </div>
               </div>
               <div className="mb-5">
@@ -72,6 +71,19 @@ export default function Resume() {
               <div className="mb-5">
                 <div className="flex justify-between mb-1">
                   <span className=" font-semibold text-[#526377] dark:text-[#A6A6A6]">
+                    Nextjs
+                  </span>
+                  <span className=" font-semibold text-[#526377] dark:text-[#A6A6A6]">
+                    95%
+                  </span>
+                </div>
+                <div className="w-full bg-[#edf2f2] rounded-full h-1 dark:bg-[#1c1c1c]">
+                  <div className="bg-[#23CE6B]  h-1 rounded-full w-[95%]"></div>
+                </div>
+              </div>
+              <div className="mb-5">
+                <div className="flex justify-between mb-1">
+                  <span className=" font-semibold text-[#526377] dark:text-[#A6A6A6]">
                     Reactjs
                   </span>
                   <span className=" font-semibold text-[#526377] dark:text-[#A6A6A6]">
@@ -80,19 +92,6 @@ export default function Resume() {
                 </div>
                 <div className="w-full bg-[#edf2f2] rounded-full h-1 dark:bg-[#1c1c1c]">
                   <div className="bg-[#BCECDE]  h-1 rounded-full w-[90%]"></div>
-                </div>
-              </div>
-              <div className="mb-5">
-                <div className="flex justify-between mb-1">
-                  <span className=" font-semibold text-[#526377] dark:text-[#A6A6A6]">
-                    Nextjs
-                  </span>
-                  <span className=" font-semibold text-[#526377] dark:text-[#A6A6A6]">
-                    85%
-                  </span>
-                </div>
-                <div className="w-full bg-[#edf2f2] rounded-full h-1 dark:bg-[#1c1c1c]">
-                  <div className="bg-[#23CE6B]  h-1 rounded-full w-[85%]"></div>
                 </div>
               </div>
             </div>
@@ -116,11 +115,11 @@ export default function Resume() {
                     Nodejs
                   </span>
                   <span className=" font-semibold text-[#526377] dark:text-[#A6A6A6]">
-                    65%
+                    75%
                   </span>
                 </div>
                 <div className="w-full bg-[#edf2f2] rounded-full h-1 dark:bg-[#1c1c1c]">
-                  <div className="bg-[#FF6464] h-1 rounded-full w-[65%]"></div>
+                  <div className="bg-[#FF6464] h-1 rounded-full w-[75%]"></div>
                 </div>
               </div>
               <div className="mb-5">
@@ -155,11 +154,11 @@ export default function Resume() {
                     REST API
                   </span>
                   <span className=" font-semibold text-[#526377] dark:text-[#A6A6A6]">
-                    86%
+                    90%
                   </span>
                 </div>
                 <div className="w-full bg-[#edf2f2] rounded-full h-1 dark:bg-[#1c1c1c]">
-                  <div className="bg-[#BCECDE]  h-1 rounded-full w-[86%]"></div>
+                  <div className="bg-[#BCECDE]  h-1 rounded-full w-[90%]"></div>
                 </div>
               </div>
               <div className="mb-5">
@@ -189,8 +188,29 @@ export default function Resume() {
               </div>
               <div className="mb-5  shadow-lg rounded-lg">
                 <div className="w-full h-full dark:border dark:border-[#292929] p-8 bg-[#FCF4FF] rounded-2xl dark:rounded-lg dark:bg-transparent">
-                  <p className="text-sm">September 2022 - September 2023 (1 year)</p>
-                  
+                  <p className="text-sm">September 2023 - Present</p>
+                  <h2 className=" text-[16px] mt-2">
+                    Software Engineer (Reactjs)
+                  </h2>
+                  <p className="text-[12px] text-[#23CE6B] ">
+                    <Link
+                      href={"http://www.smartfieldservice.com/"}
+                      target="_blank"
+                    >
+                      Bdtask Limited
+                    </Link>
+                  </p>
+                  <p className="text-[10px]  pt-2 text-[#505050] dark:text-[#d8d8d8]">
+                    Bdtask, Inc. has a global reputation for up to scratch
+                    customer experience which marks us as one of the best
+                    software development companies in the world.
+                  </p>
+                </div>
+              </div>
+              <div className="mb-5  shadow-lg rounded-lg">
+                <div className="w-full h-full dark:border dark:border-[#292929] p-8 bg-[#FCF4FF] rounded-2xl dark:rounded-lg dark:bg-transparent">
+                  <p className="text-sm">September 2022 - September 2023</p>
+
                   <h2 className=" text-[16px] mt-2">
                     Software Engineer (Reactjs)
                   </h2>
@@ -206,27 +226,6 @@ export default function Resume() {
                   <p className="text-[10px]  pt-2 text-[#505050] dark:text-[#d8d8d8]">
                     As an IT service provider, you offer technology-related
                     services and support to your clients.
-                  </p>
-                </div>
-              </div>
-              <div className="mb-5  shadow-lg rounded-lg">
-                <div className="w-full h-full dark:border dark:border-[#292929] p-8 bg-[#FCF4FF] rounded-2xl dark:rounded-lg dark:bg-transparent">
-                  <p className="text-sm">September 2023 - Present</p>
-                  <h2 className=" text-[16px] mt-2">
-                    Software Engineer (Reactjs)
-                  </h2>
-                  <p className="text-[12px] text-[#23CE6B] ">
-                    <Link
-                      href={"http://www.smartfieldservice.com/"}
-                      target="_blank"
-                    >
-                      Bdtask Limited 
-                    </Link>
-                  </p>
-                  <p className="text-[10px]  pt-2 text-[#505050] dark:text-[#d8d8d8]">
-                    Bdtask, Inc. has a global reputation for up to scratch
-                    customer experience which marks us as one of the best
-                    software development companies in the world.
                   </p>
                 </div>
               </div>

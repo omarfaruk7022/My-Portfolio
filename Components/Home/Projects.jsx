@@ -2,9 +2,12 @@ import Image from "next/image";
 import React from "react";
 import idolgroup from "../../assets/Images/idolgroup.png";
 import sfs from "../../assets/Images/sfs.png";
-import islamicPoshak from "../../assets/Images/islamicPoshak.png";
+import islamicposhak from "../../assets/Images/islamicposhak.png";
 import bus from "../../assets/Images/bus365.png";
 import cart24 from "../../assets/Images/cart24.png";
+import skytrip from "../../assets/Images/skytrip.png";
+import news365 from "../../assets/Images/news365.png";
+
 import { LuExternalLink } from "react-icons/lu";
 import Link from "next/link";
 import Footer from "./Footer";
@@ -21,7 +24,7 @@ export default function Projects() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2  gap-8">
           {" "}
-          <div className="bg-[#F8FBFB] dark:bg-[#1a1a1a] rounded-lg shadow-md">
+          {/* <div className="bg-[#F8FBFB] dark:bg-[#1a1a1a] rounded-lg shadow-md">
             <div className="overflow-scroll h-96 w-full scrollbar-hide cursor-pointer">
               <Image src={cart24} alt=""></Image>
             </div>
@@ -43,6 +46,109 @@ export default function Projects() {
                   target="_blank"
                 >
                   Preview
+                  <LuExternalLink className="inline-block ml-2" />
+                </Link>
+              </div>
+            </div>
+          </div> */}
+          <div className="bg-[#F8FBFB] dark:bg-[#1a1a1a] rounded-lg shadow-md">
+            <div className="overflow-scroll h-96 w-full scrollbar-hide cursor-pointer">
+              <Image src={skytrip} alt=""></Image>
+            </div>
+            <div className="p-5">
+              <h2 className="text-2xl text-transparent bg-clip-text bg-gradient-to-l to-[#0d9244] from-[#57e793]">
+                Skytrip
+              </h2>
+              <p className="text-xs text-black dark:text-[#d8d8d8]">
+                An Air ticketing system using Reactjs, Bootstrap, and Laravel
+                used for Organized Sabre and Galileo GDS API's. a Popular Travel
+                website. And this website is responsive for every device.
+              </p>
+              <div className="flex justify-between items-center pt-4">
+                <Link
+                  className=" text-green-400 flex items-center text-sm   hover:text-green-500"
+                  href="https://skytrip.com/"
+                  target="_blank"
+                >
+                  Preview
+                  <LuExternalLink className="inline-block ml-2" />
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[#F8FBFB] dark:bg-[#1a1a1a] rounded-lg shadow-md">
+            <div className="overflow-scroll h-96 w-full scrollbar-hide cursor-pointer">
+              <Image src={islamicposhak} alt=""></Image>
+            </div>
+            <div className="p-5">
+              <h2 className="text-2xl text-transparent bg-clip-text bg-gradient-to-l to-[#0d9244] from-[#ffffff] ">
+                Islamic poshak collection
+              </h2>
+              <p className="text-xs text-black dark:text-[#d8d8d8]">
+                A Online market and it is a client project, Front end created
+                with Reactjs, tailwind CSS, User and admin role available.Only
+                admin can change roles of users Authentication with firebase,
+                and database with mongoDB using mongoose.
+              </p>
+              <div className="flex justify-between items-center pt-4">
+                <Link
+                  className=" text-green-400 flex items-center text-[10px]   lg:text-[12px]    hover:text-green-500"
+                  href="https://islamicposhak.com/"
+                  target="_blank"
+                >
+                  Preview
+                  <LuExternalLink className="inline-block ml-2" />
+                </Link>
+                {/* <Link
+                  className=" text-green-400 flex items-center text-[10px]   lg:text-[12px]   hover:text-green-500"
+                  href="https://github.com/omarfaruk7022/BMW"
+                  target="_blank"
+                >
+                  Github Client
+                  <LuExternalLink className="inline-block ml-2" />
+                </Link>
+                <Link
+                  className=" text-green-400 flex items-center text-[10px]   lg:text-[12px]    hover:text-green-500"
+                  href="https://github.com/omarfaruk7022/BMW-Server"
+                  target="_blank"
+                >
+                  Github Server
+                  <LuExternalLink className="inline-block ml-2" />
+                </Link> */}
+              </div>
+            </div>
+          </div>
+          <div className="bg-[#F8FBFB] dark:bg-[#1a1a1a] rounded-lg shadow-md">
+            <div className="overflow-scroll h-96 w-full scrollbar-hide cursor-pointer">
+              <Image src={news365} alt=""></Image>
+            </div>
+            <div className="p-5">
+              <h2 className="text-2xl text-transparent bg-clip-text bg-gradient-to-l to-[#0d9244] from-[#57e793]">
+                News365
+              </h2>
+              <p className="text-xs text-black dark:text-[#d8d8d8]">
+                News365 is a standard newspaper script and a robust news and
+                blog theme developed using Laravel and next js. This unique
+                application is tailored for news agencies and portal owners,
+                enabling them to manage their platforms without needing any
+                coding knowledge. It offers an all-in-one solution, encompassing
+                a wide range of news and magazine features.
+              </p>
+              <div className="flex justify-between items-center pt-4">
+                <Link
+                  className=" text-green-400 flex items-center text-sm   hover:text-green-500"
+                  href="https://news365.bdtask-demo.com/"
+                  target="_blank"
+                >
+                  Preview
+                  <LuExternalLink className="inline-block ml-2" />
+                </Link>
+                <Link
+                  className=" text-green-400 flex items-center text-sm   hover:text-green-500"
+                  href="https://news365.bdtask-demo.com/admin/"
+                  target="_blank"
+                >
+                  Admin panel
                   <LuExternalLink className="inline-block ml-2" />
                 </Link>
               </div>
@@ -131,48 +237,6 @@ export default function Projects() {
                   Preview
                   <LuExternalLink className="inline-block ml-2" />
                 </Link>
-              </div>
-            </div>
-          </div>
-          <div className="bg-[#F8FBFB] dark:bg-[#1a1a1a] rounded-lg shadow-md">
-            <div className="overflow-scroll h-96 w-full scrollbar-hide cursor-pointer">
-              <Image src={islamicPoshak} alt=""></Image>
-            </div>
-            <div className="p-5">
-              <h2 className="text-2xl text-transparent bg-clip-text bg-gradient-to-l to-[#0d9244] from-[#ffffff] ">
-                Islamic poshak collection 
-              </h2>
-              <p className="text-xs text-black dark:text-[#d8d8d8]">
-                A Online market and it is a client project, Front end created
-                with Reactjs, tailwind CSS, User and admin role available.Only
-                admin can change roles of users Authentication with firebase,
-                and database with mongoDB using mongoose.
-              </p>
-              <div className="flex justify-between items-center pt-4">
-                <Link
-                  className=" text-green-400 flex items-center text-[10px]   lg:text-[12px]    hover:text-green-500"
-                  href="https://islamicposhak.com/"
-                  target="_blank"
-                >
-                  Preview
-                  <LuExternalLink className="inline-block ml-2" />
-                </Link>
-                {/* <Link
-                  className=" text-green-400 flex items-center text-[10px]   lg:text-[12px]   hover:text-green-500"
-                  href="https://github.com/omarfaruk7022/BMW"
-                  target="_blank"
-                >
-                  Github Client
-                  <LuExternalLink className="inline-block ml-2" />
-                </Link>
-                <Link
-                  className=" text-green-400 flex items-center text-[10px]   lg:text-[12px]    hover:text-green-500"
-                  href="https://github.com/omarfaruk7022/BMW-Server"
-                  target="_blank"
-                >
-                  Github Server
-                  <LuExternalLink className="inline-block ml-2" />
-                </Link> */}
               </div>
             </div>
           </div>

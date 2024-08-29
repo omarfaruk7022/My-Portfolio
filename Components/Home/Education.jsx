@@ -22,9 +22,7 @@ export default function Education() {
             icon={<FaGraduationCap />}
           >
             <div className="bg-white dark:bg-black p-5 text-[#505050] dark:text-[#d8d8d8] ">
-              <h3 className="vertical-timeline-element-title">
-                2023 - Present
-              </h3>
+              <h3 className="vertical-timeline-element-title">2023 - 2024</h3>
               <h4 className="vertical-timeline-element-subtitle text-sm">
                 Markaze ihyaus sunnah
               </h4>

@@ -39,8 +39,7 @@ export default function FixedDetails() {
                 Muhammad Omar Faruk
               </h2>
               <h4 className="text-center text-[16px] text-[#7B7B7B] dark:text-[#A6A6A6] pt-4 text-sm">
-                Frontend
-                 Developer (Reactjs)
+                Frontend Developer (Reactjs)
               </h4>
             </div>
             <div className="flex gap-4 m-auto justify-center py-6">

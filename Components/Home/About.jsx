@@ -10,7 +10,7 @@ import Footer from "./Footer";
 
 export default function About() {
   return (
-    <div className="bg-white dark:bg-[#111111] rounded-2xl my-9" >
+    <div className="bg-white dark:bg-[#111111] rounded-2xl my-9">
       <div className=" w-full  p-8  py-12  ">
         <div className="flex items-center ">
           <h2 className="text-xl lg:text-4xl  text-black dark:text-white ">
@@ -21,11 +21,11 @@ export default function About() {
         <div>
           <p className="text-[15px] text-[#646464] dark:text-[#A6A6A6] py-5">
             A self-motivated, creative, hardworking person ambitious individual
-            with proficiency capable of solving many problems at once, and I
-            have a strong ability to communicate and work in a team, I have the
-            ability to finish any task with complete perfection before the
-            deadline, Looking for the position of Front-end Developer in
-            (Reactjs) in a company to implement my working skills.
+            with proficiency capable of designing and developing software and
+            web applications as requirements, I have a strong ability to
+            communicate and work in a team, and I can finish any task with
+            complete perfection before the deadline, Looking for the position of
+            Frontend developer in a company to implement my working skills.
           </p>
         </div>
         <div className="flex items-center py-5">
@@ -113,7 +113,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

@@ -7,6 +7,7 @@ import bus from "../../assets/Images/bus365.png";
 import cart24 from "../../assets/Images/cart24.png";
 import skytrip from "../../assets/Images/skytrip.png";
 import news365 from "../../assets/Images/news365.png";
+import maherchat from "../../assets/Images/maherchat.png";
 
 import { LuExternalLink } from "react-icons/lu";
 import Link from "next/link";
@@ -60,9 +61,12 @@ export default function Projects() {
                 Skytrip
               </h2>
               <p className="text-xs text-black dark:text-[#d8d8d8]">
-                An Air ticketing system using Reactjs, Bootstrap, and Laravel
-                used for Organized Sabre and Galileo GDS API's. a Popular Travel
-                website. And this website is responsive for every device.
+                Developed an air ticketing system using React.js and Bootstrap,
+                integrated with Laravel for backend functionalities. The system
+                utilizes Sabre and Galileo GDS APIs for real-time flight
+                searches and bookings, ensuring a seamless travel experience.
+                Focused on optimizing performance and user experience, the
+                website is fully responsive across all devices.
               </p>
               <div className="flex justify-between items-center pt-4">
                 <Link
@@ -78,6 +82,42 @@ export default function Projects() {
           </div>
           <div className="bg-[#F8FBFB] dark:bg-[#1a1a1a] rounded-lg shadow-md">
             <div className="overflow-scroll h-96 w-full scrollbar-hide cursor-pointer">
+              <Image src={maherchat} alt=""></Image>
+            </div>
+            <div className="p-5">
+              <h2 className="text-2xl text-transparent bg-clip-text bg-gradient-to-l to-[#0d9244] from-[#57e793]">
+                Maherchat
+              </h2>
+              <p className="text-xs text-black dark:text-[#d8d8d8]">
+                The WhatsApp Business API Platform automates marketing, sales,
+                service, and support, allowing businesses to engage customers
+                via personalized WhatsApp messages. It simplifies customer
+                interactions without requiring technical expertise and offers an
+                all-in-one solution to streamline communication and enhance
+                engagement across channels.
+              </p>
+              <div className="flex justify-between items-center pt-4">
+                <Link
+                  className=" text-green-400 flex items-center text-sm   hover:text-green-500"
+                  href="https://maherchat.com/"
+                  target="_blank"
+                >
+                  Preview
+                  <LuExternalLink className="inline-block ml-2" />
+                </Link>
+                <Link
+                  className=" text-green-400 flex items-center text-sm   hover:text-green-500"
+                  href="https://app.maherchat.com/admin/"
+                  target="_blank"
+                >
+                  Admin panel
+                  <LuExternalLink className="inline-block ml-2" />
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[#F8FBFB] dark:bg-[#1a1a1a] rounded-lg shadow-md">
+            <div className="overflow-scroll h-96 w-full scrollbar-hide cursor-pointer">
               <Image src={islamicposhak} alt=""></Image>
             </div>
             <div className="p-5">
@@ -85,10 +125,16 @@ export default function Projects() {
                 Islamic poshak collection
               </h2>
               <p className="text-xs text-black dark:text-[#d8d8d8]">
-                A Online market and it is a client project, Front end created
-                with Reactjs, tailwind CSS, User and admin role available.Only
-                admin can change roles of users Authentication with firebase,
-                and database with mongoDB using mongoose.
+                Developed a client-focused online marketplace utilizing React.js
+                and Tailwind CSS for a modern and responsive user interface.
+                Implemented user and admin roles, with robust admin privileges
+                to manage user roles and permissions. Integrated Firebase for
+                secure authentication, ensuring a seamless login experience. The
+                application uses MongoDB with Mongoose for efficient database
+                management, allowing for real-time data handling and storage.
+                The project emphasizes user experience, ensuring a visually
+                appealing and intuitive platform for both customers and
+                administrators.
               </p>
               <div className="flex justify-between items-center pt-4">
                 <Link
@@ -127,12 +173,15 @@ export default function Projects() {
                 News365
               </h2>
               <p className="text-xs text-black dark:text-[#d8d8d8]">
-                News365 is a standard newspaper script and a robust news and
-                blog theme developed using Laravel and next js. This unique
-                application is tailored for news agencies and portal owners,
-                enabling them to manage their platforms without needing any
-                coding knowledge. It offers an all-in-one solution, encompassing
-                a wide range of news and magazine features.
+                Developed a comprehensive newspaper script featuring a robust
+                news and blog theme using Laravel and Next.js. This unique
+                application is specifically designed for news agencies and
+                portal owners, allowing them to manage their platforms
+                effortlessly without requiring any coding knowledge. News365
+                provides an all-in-one solution, integrating a wide array of
+                features for news and magazine management, ensuring an intuitive
+                and user-friendly experience for content creators and readers
+                alike.
               </p>
               <div className="flex justify-between items-center pt-4">
                 <Link
@@ -163,11 +212,15 @@ export default function Projects() {
                 Bus365
               </h2>
               <p className="text-xs text-black dark:text-[#d8d8d8]">
-                Bus365 : Bus Reservation System with Website is a very wonderful
-                Bus and fleet Booking System, This Bus reservation system is
-                developed by PHP and Code Igniter & frontend developed by React
-                js.It is mostly useful for any Bus, Fleet and Ticket Selling
-                Company.It has a variety of features on Bus ticket Management.
+                Developed a robust bus reservation system featuring a
+                comprehensive website, designed to streamline bus and fleet
+                bookings. This system combines a backend built with PHP and
+                CodeIgniter, while the frontend is developed using React.js,
+                ensuring a modern and responsive user interface. Bus365 caters
+                primarily to bus, fleet, and ticket-selling companies, offering
+                a wide range of features for efficient bus ticket management.
+                The application emphasizes user experience, enabling seamless
+                ticket bookings and management for both operators and customers.
               </p>
               <div className="flex justify-between items-center pt-4">
                 <Link
@@ -198,10 +251,13 @@ export default function Projects() {
                 Idol Group
               </h2>
               <p className="text-xs text-black dark:text-[#d8d8d8]">
-                It is a team project created with Nextjs, React Bootstrap, and
-                Raw CSS. SEO Friendly More faster. Group of companys running
-                website. And this website is on the ranking of Google Search
-                engine
+                Contributed to a team project that involved creating a corporate
+                website using Next.js, React Bootstrap, and raw CSS. The website
+                is designed to be SEO-friendly, enhancing its visibility on
+                search engines and improving loading speed for a better user
+                experience. As a result of these optimizations, the site ranks
+                well on Google, effectively representing a group of companies
+                and showcasing their services to a broader audience.
               </p>
               <div className="flex justify-between items-center pt-4">
                 <Link
@@ -224,9 +280,13 @@ export default function Projects() {
                 Smart Field Service
               </h2>
               <p className="text-xs text-black dark:text-[#d8d8d8]">
-                It is a team project created with Nextjs, React Bootstrap, and
-                Raw CSS. SEO Friendly More faster. Our concerns running website.
-                And this website is responsive for every device.
+                As part of a team project, developed a responsive website using
+                Next.js, React Bootstrap, and raw CSS. The site is designed to
+                be SEO-friendly, enhancing visibility and improving load times
+                for a faster user experience. Tailored to meet the needs of our
+                organization, the website ensures seamless accessibility across
+                all devices, effectively representing our services and engaging
+                users.
               </p>
               <div className="flex justify-between items-center pt-4">
                 <Link
